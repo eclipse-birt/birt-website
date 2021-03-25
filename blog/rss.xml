@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>BIRT Blog</title>
+        <link>https://eclipse.github.io/blog</link>
+        <description>BIRT Blog</description>
+        <lastBuildDate>Sun, 14 Mar 2021 06:42:40 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://eclipse.github.io/birt-website/blog/welcome</link>
+            <guid>welcome</guid>
+            <pubDate>Sun, 14 Mar 2021 06:42:40 GMT</pubDate>
+            <description><![CDATA[Welcome to BIRT. Get it started and enjoy... :)]]></description>
+        </item>
+    </channel>
+</rss>
