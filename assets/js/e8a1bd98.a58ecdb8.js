@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[50],{120:function(s){s.exports=JSON.parse('{"allTagsPath":"/eclipse/blog/tags","slug":"osbp","name":"osbp","count":1,"permalink":"/eclipse/blog/tags/osbp"}')}}]);
