@@ -45,7 +45,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
      inkscape:cx="1208.52"
-     inkscape:cy="767.1511"
+     inkscape:cy="788.57967"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -65,7 +65,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -101,57 +101,48 @@
        stroke="none"
        d="M 828.29703,439.45401 Z"
        style="stroke-width:0.264583" />
-    <g
-       id="g2481"
-       transform="matrix(1.1041004,0,0,1.1233563,-14.488286,-29.664264)">
-      <g
-         id="g2466"
-         transform="matrix(0.92113395,0,0,1,12.791572,-108.47917)">
-        <rect
-           style="fill:#232885;fill-opacity:1;fill-rule:evenodd;stroke:#003258;stroke-width:0"
-           id="rect2430-4"
-           width="344.3363"
-           height="62.366074"
-           x="6.6145868"
-           y="323.35861"
-           ry="31.132627"
-           rx="20.279451" />
-        <rect
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#003258;stroke-width:0"
-           id="rect2462"
-           width="358.69937"
-           height="37.041668"
-           x="-0.75595242"
-           y="322.79172"
-           rx="0"
-           ry="0" />
-      </g>
-      <rect
-         style="fill:#232885;fill-opacity:1;fill-rule:evenodd;stroke:#003258;stroke-width:0"
-         id="rect2430"
-         width="280.8363"
-         height="205.24107"
-         x="36.285713"
-         y="34.017857"
-         ry="11.236434"
-         rx="9.4494047" />
-      <rect
-         style="fill:#d0cac1;fill-opacity:1;fill-rule:evenodd;stroke:#003258;stroke-width:0"
-         id="rect2430-8"
-         width="244.0592"
-         height="172.99969"
-         x="54.674259"
-         y="49.760567"
-         ry="9.4713001"
-         rx="8.2119522" />
-      <text
-         xml:space="preserve"
-         id="text2468"
-         style="font-size:10.5833px;line-height:1.25;font-family:'Prestige Elite Std';-inkscape-font-specification:'Prestige Elite Std';white-space:pre;shape-inside:url(#rect2470);fill:#ffffff;fill-opacity:1;"
-         transform="matrix(7.4823513,0,0,8.8109778,-445.41673,-695.63723)"><tspan
-           x="67.658203"
-           y="98.361447"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';fill:#ffffff;fill-opacity:1">DOCS</tspan></tspan></text>
-    </g>
+    <path
+       id="rect2430-4-7"
+       style="fill:#fbfafc;fill-opacity:1;fill-rule:evenodd;stroke:#003258;stroke-width:0"
+       d="M 1.2382119,246.69668 C 2.9436111,270.70963 11.714389,288.8956 22.348938,288.8956 H 343.15405 c 10.63453,0 19.40531,-18.18597 21.11072,-42.19892 z" />
+    <path
+       id="rect2430-4"
+       style="fill:#232885;fill-opacity:1;fill-rule:evenodd;stroke:#003258;stroke-width:0"
+       d="m 7.9464026,252.31807 c 1.64237,16.55061 10.0890074,29.08506 20.3305414,29.08506 H 337.22605 c 10.24152,0 18.68815,-12.53445 20.33053,-29.08506 z" />
+    <rect
+       style="fill:#fbfafc;fill-opacity:1;fill-rule:evenodd;stroke:#003258;stroke-width:0"
+       id="rect2430-3"
+       width="330.49527"
+       height="246.81117"
+       x="17.125906"
+       y="1.179705"
+       ry="13.512292"
+       rx="11.120299" />
+    <rect
+       style="fill:#232885;fill-opacity:1;fill-rule:evenodd;stroke:#003258;stroke-width:0"
+       id="rect2430"
+       width="310.07147"
+       height="230.55885"
+       x="27.715755"
+       y="11.724906"
+       ry="12.622519"
+       rx="10.433091" />
+    <rect
+       style="fill:#d0cac1;fill-opacity:1;fill-rule:evenodd;stroke:#003258;stroke-width:0"
+       id="rect2430-8"
+       width="269.46585"
+       height="194.3403"
+       x="48.018566"
+       y="29.409586"
+       ry="10.639645"
+       rx="9.0668201" />
+    <text
+       xml:space="preserve"
+       id="text2468"
+       style="font-size:10.5833px;line-height:1.25;font-family:'Prestige Elite Std';-inkscape-font-specification:'Prestige Elite Std';white-space:pre;shape-inside:url(#rect2470);fill:#ffffff;fill-opacity:1;"
+       transform="matrix(8.2612671,0,0,9.8978674,-503.73079,-807.93771)"><tspan
+         x="67.658203"
+         y="98.361447"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Unicode MS';-inkscape-font-specification:'Arial Unicode MS';fill:#ffffff;fill-opacity:1">DOCS</tspan></tspan></text>
   </g>
 </svg>
