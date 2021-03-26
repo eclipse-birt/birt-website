@@ -9,7 +9,7 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://eclipse.github.io./eclipse/blog/welcome</link>
+            <link>https://eclipse.github.io./birt-website/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Sun, 14 Mar 2021 06:42:40 GMT</pubDate>
             <description><![CDATA[Welcome to BIRT. Get it started and enjoy... :)]]></description>
