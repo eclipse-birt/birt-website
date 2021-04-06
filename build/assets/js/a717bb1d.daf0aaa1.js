@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[42],{113:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"compex-commerce","name":"compex commerce","count":1,"permalink":"/blog/tags/compex-commerce"}')}}]);

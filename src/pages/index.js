@@ -51,7 +51,7 @@ const features = [
   },
   {
     title: 'Documentation',
-    imageUrl: 'img/BIRT-Documentation-01.svg',
+    imageUrl: 'img/BIRT-Documentation-02.svg',
     description: (
       <>
         You want to dive deep inside BIRT. Read the Documentation where you will find all information you need.
