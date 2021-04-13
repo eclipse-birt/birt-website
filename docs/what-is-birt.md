@@ -6,7 +6,7 @@ sidebar_label: What is BIRT?
 
 ## The Project
 
-BIRT is an open source software project that provides the BIRT technology platform to create data visualizations and reports that can be embedded into rich client and web applications, especially those based on Java and Jakarta EE. BIRT is a top-level software project within the Eclipse Foundation.
+BIRT is an open source software project to create data visualizations and reports that can be embedded into rich client and web applications, especially those based on Java and Jakarta EE. BIRT is a top-level software project within the Eclipse Foundation.
 
 The BIRT project addresses a wide range of reporting needs. Reporting capabilities in an application are often implemented in an ad hoc fashion by the application developer, using technology that is not ideally suited to the task, or through the development of a one-off solution for that application. This is expensive and time-consuming, and provides limited reporting capabilities for the end users of the application. BIRT addresses this problem by providing Eclipse-based open source and extensible tools and frameworks that allow developers to easily incorporate reporting functionality within their applications.
 
