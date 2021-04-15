@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://eclipse.github.io./blog</id>
+    <id>https://eclipse.github.io/blog</id>
     <title>BIRT Blog</title>
-    <updated>2021-03-30T15:37:19.300Z</updated>
+    <updated>2021-04-15T12:20:56.424Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://eclipse.github.io./blog"/>
+    <link rel="alternate" href="https://eclipse.github.io/blog"/>
     <subtitle>BIRT Blog</subtitle>
-    <icon>https://eclipse.github.io./img/BIRT-Icon.png</icon>
+    <icon>https://eclipse.github.io/img/BIRT-Icon.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
-        <link href="https://eclipse.github.io./blog/welcome"/>
-        <updated>2021-03-30T15:37:19.300Z</updated>
+        <link href="https://eclipse.github.io/birt-website/blog/welcome"/>
+        <updated>2021-04-15T12:20:56.424Z</updated>
         <summary type="html"><![CDATA[Welcome to BIRT. Get it started and enjoy... :)]]></summary>
     </entry>
 </feed>

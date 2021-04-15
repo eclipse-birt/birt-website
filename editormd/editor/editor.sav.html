@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh">
+<script type="text/javascript">
+function Werteliste (querystring) {
+  if (querystring == '') return;
+  var wertestring = querystring.slice(1);
+  var paare = wertestring.split("&");
+  var paar, name, wert;
+  for (var i = 0; i < paare.length; i++) {
+    paar = paare[i].split("=");
+    name = paar[0];
+    wert = paar[1];
+    name = unescape(name).replace("+", " ");
+    wert = unescape(wert).replace("+", " ");
+    this[name] = wert;
+  }
+}
+var liste = new Werteliste(location.search);
+</script>
+
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Editor</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="../css/editormd.css" />
+        <link rel="shortcut icon" href="https://pandao.github.io/editor.md/favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <div id="layout">
+            <header>
+                <h1>Editor</h1>   
+                <p>Markdown Editor</p>     
+            </header>
+            <form method="post" action="php/post.php">
+                <div id="test-editormd">
+                    <!-- Custom textarea name attribute <textarea style="display:none;" name="test-textarea-name"> -->
+					
+                </div>
+                <div style="width:90%;margin: 10px auto;">
+                    <input type="submit" name="submit" value="Submit" style="padding: 5px;" /> 
+                </div>  
+
+     				
+            </form>
+        </div>        
+        <script src="js/jquery.min.js"></script>
+        <script src="../editormd.js"></script>   
+        <script type="text/javascript">
+		var liste = new Werteliste(location.search);
+		var pfad1='/'+liste['file']
+		
+            $(function() {
+                $.get(pfad1, function(md) {
+                    var testEditor = editormd("test-editormd", {
+                        width  : "90%",
+                        height : 800,
+                        path   : "../lib/",
+                        appendMarkdown : md,
+                        saveHTMLToTextarea : true,
+						watch : false
+                    });
+                });
+
+                //testEditor.getMarkdown();       // 获取 Markdown 源码
+                //testEditor.getHTML();           // 获取 Textarea 保存的 HTML 源码
+                //testEditor.getPreviewedHTML();  // 获取预览窗口里的 HTML，在开启 watch 且没有开启 saveHTMLToTextarea 时使用
+            });
+        </script>
+    </body>
+</html>

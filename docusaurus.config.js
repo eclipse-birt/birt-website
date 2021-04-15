@@ -6,13 +6,13 @@ module.exports = {
   
   title: 'BIRT',
   tagline: 'Busines Inteligence Reporting Tool',
-  url: 'https://eclipse.github.io.',
-  baseUrl: '/',
+  url: 'https://eclipse.github.io',
+  baseUrl: '/birt-website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/BIRT-Icon.png',
   organizationName: 'eclipse', // Usually your GitHub org/user name.
-  projectName: 'birt-website', // Usually your repo name.
+  projectName: '/birt-website', // Usually your repo name. birt-website
   themeConfig: {
     navbar: {
       title: 'HOME',
@@ -129,8 +129,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            '/birt-website/',
-            //https://github.com/chloetz/BIRT-Dev/
+            'https://github.com/eclipse/birt-website/tree/main/'
         },
         blog: {
           showReadingTime: true,

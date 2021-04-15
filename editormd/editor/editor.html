@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<script type="text/javascript">
+		function ListOfValues (querystring) {
+		  if (querystring == '') return;
+		  var stringOfValues = querystring.slice(1);
+		  var pairs = stringOfValues.split("&");
+		  var pair, name, value;
+		  for (var i = 0; i < pairs.length; i++) {
+			pair = pairs[i].split("=");
+			name = pair[0];
+			value = pair[1];
+			name = unescape(name).replace("+", " ");
+			value = unescape(value).replace("+", " ");
+			this[name] = value;
+		  }
+		}
+		var liste = new ListOfValues(location.search);
+	</script>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Editor</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="../css/editormd.css" />
+        <link rel="shortcut icon" href="/static/img/BIRT-Icon.png" type="image/x-icon" />
+    </head>
+	
+    <body>
+        <div id="layout">		
+            <header>
+                <h1>Edit Markdown File:   
+					<script type="text/javascript">
+					document.write('<input type="text" id="fname" name="fname"  value='+liste['file']+' ><br>')
+					</script>  
+				</h1> 
+			</header>
+			
+            <form method="post" action="php/post.php">
+                <div id="test-editormd">
+                    
+					<!-- Custom textarea name attribute 
+					<textarea style="display:none;" name="test-textarea-name"> 
+					-->
+					
+				</div>
+                
+				<div style="width:90%;margin: 10px auto;">
+                    <input type="submit" name="submit" value="Submit" style="padding: 5px;" /> 
+                </div>       				
+            </form>
+        </div> 
+		
+        <script src="js/jquery.min.js"></script>
+        <script src="../editormd.js"></script>   
+        <script type="text/javascript">
+		var liste = new ListOfValues(location.search);
+		var pfad1='/'+liste['file']
+		
+            $(function() {
+                $.get(pfad1, function(md) {
+                    var testEditor = editormd("test-editormd", {
+                        width  : "90%",
+                        height : 840,
+                        path   : "../lib/",
+                        appendMarkdown : md,
+                        saveHTMLToTextarea : true,
+						watch : false
+                    });
+                });
+
+                //testEditor.getMarkdown();       // Markdown                //testEditor.getHTML();           // Textarea HTML
+                //testEditor.getPreviewedHTML();  // HTML，watch saveHTMLToTextarea
+            });
+        </script>
+    </body>
+</html>

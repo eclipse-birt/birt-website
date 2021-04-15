@@ -1,14 +1,14 @@
-# Dependencies
+# dependencies
 /node_modules
 
-# Production
-# /build
+# production
+/build
 
-# Generated files
+# generated files
 .docusaurus
 .cache-loader
 
-# Misc
+# misc
 .DS_Store
 .env.local
 .env.development.local
@@ -18,3 +18,5 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+BIRT-Internet-Page-Structure_V1.0.0.pptx
