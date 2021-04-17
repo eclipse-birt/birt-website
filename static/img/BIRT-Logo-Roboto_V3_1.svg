@@ -1910,7 +1910,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.0000001"
-     inkscape:cx="622.8758"
+     inkscape:cx="940.89373"
      inkscape:cy="210.42002"
      inkscape:document-units="px"
      inkscape:current-layer="g2614"
@@ -3458,7 +3458,8 @@
     <sodipodi:guide
        position="-33.013107,-41.470206"
        orientation="0,-1"
-       id="guide2618" />
+       id="guide2618"
+       inkscape:locked="true" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -6959,7 +6960,9 @@
     <text
        xml:space="preserve"
        id="text2581"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.0004px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect2583);"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.0004px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;white-space:pre;shape-inside:url(#rect2583);"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95"><tspan
          style="visibility:hidden"
          x="38.400391"
          y="64.092147"><tspan
@@ -7120,168 +7123,167 @@
            y="94.4645"
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#f88d2b;fill-opacity:1;stroke-width:0.177911">TM</tspan></text>
     </g>
-    <g
-       id="g2706"
+    <rect
+       style="display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.24535;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect2907-6"
+       width="174.96947"
+       height="61.060425"
+       x="182.99263"
+       y="63.743774"
        inkscape:export-xdpi="95"
-       inkscape:export-ydpi="95">
-      <rect
-         style="display:inline;fill:#3d3a35;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.24535;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
-         id="rect2907-6"
-         width="174.96947"
-         height="61.060425"
-         x="182.99263"
-         y="63.743774" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.6183px;line-height:1.25;font-family:'Averia Sans';-inkscape-font-specification:'Averia Sans';fill:#06b937;fill-opacity:1;stroke-width:0.31737"
+       inkscape:export-ydpi="95" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.6183px;line-height:1.25;font-family:'Averia Sans';-inkscape-font-specification:'Averia Sans';fill:#06b937;fill-opacity:1;stroke-width:0.31737"
+       x="244.23254"
+       y="113.78158"
+       id="text2555-6-3"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95"
+       transform="scale(0.99006637,1.0100333)"><tspan
+         sodipodi:role="line"
+         id="tspan2553-1-5"
          x="244.23254"
          y="113.78158"
-         id="text2555-6-3"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95"
-         transform="scale(0.99006637,1.0100333)"><tspan
-           sodipodi:role="line"
-           id="tspan2553-1-5"
-           x="244.23254"
-           y="113.78158"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:52.6183px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#06b937;fill-opacity:1;stroke-width:0.31737"
-           rotate="0 0">B</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.5549px;line-height:1.25;font-family:'Averia Sans';-inkscape-font-specification:'Averia Sans';fill:#f30b3d;fill-opacity:1;stroke-width:0.304973"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:52.6183px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#06b937;fill-opacity:1;stroke-width:0.31737"
+         rotate="0 0">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.5549px;line-height:1.25;font-family:'Averia Sans';-inkscape-font-specification:'Averia Sans';fill:#f30b3d;fill-opacity:1;stroke-width:0.304973"
+       x="263.7417"
+       y="118.23518"
+       id="text2563-9-9"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95"
+       transform="scale(1.0303121,0.97057969)"><tspan
+         sodipodi:role="line"
+         id="tspan2561-0-3"
          x="263.7417"
          y="118.23518"
-         id="text2563-9-9"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95"
-         transform="scale(1.0303121,0.97057969)"><tspan
-           sodipodi:role="line"
-           id="tspan2561-0-3"
-           x="263.7417"
-           y="118.23518"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:58.5549px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#f30b3d;fill-opacity:1;stroke-width:0.304973">i</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.6221px;line-height:1.25;font-family:'Averia Sans';-inkscape-font-specification:'Averia Sans';fill:#06b937;fill-opacity:1;stroke-width:0.327376"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:58.5549px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#f30b3d;fill-opacity:1;stroke-width:0.304973">i</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.6221px;line-height:1.25;font-family:'Averia Sans';-inkscape-font-specification:'Averia Sans';fill:#06b937;fill-opacity:1;stroke-width:0.327376"
+       x="284.64636"
+       y="114.29613"
+       id="text2569-8-2"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95"
+       transform="scale(0.99606515,1.0039504)"><tspan
+         sodipodi:role="line"
+         id="tspan2567-5-4"
          x="284.64636"
          y="114.29613"
-         id="text2569-8-2"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95"
-         transform="scale(0.99606515,1.0039504)"><tspan
-           sodipodi:role="line"
-           id="tspan2567-5-4"
-           x="284.64636"
-           y="114.29613"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:52.6221px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#06b937;fill-opacity:1;stroke-width:0.327376">R</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.7774px;line-height:1.25;font-family:'Averia Sans';-inkscape-font-specification:'Averia Sans';fill:#06b937;fill-opacity:1;stroke-width:0.328246"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:52.6221px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#06b937;fill-opacity:1;stroke-width:0.327376">R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.7774px;line-height:1.25;font-family:'Averia Sans';-inkscape-font-specification:'Averia Sans';fill:#06b937;fill-opacity:1;stroke-width:0.328246"
+       x="316.17288"
+       y="114.1602"
+       id="text2575-4-0"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95"
+       transform="scale(0.99487747,1.0051489)"><tspan
+         sodipodi:role="line"
+         id="tspan2573-0-2"
          x="316.17288"
          y="114.1602"
-         id="text2575-4-0"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95"
-         transform="scale(0.99487747,1.0051489)"><tspan
-           sodipodi:role="line"
-           id="tspan2573-0-2"
-           x="316.17288"
-           y="114.1602"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:52.7774px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#06b937;fill-opacity:1;stroke-width:0.328246">T</tspan></text>
-      <path
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.172711"
-         d="m 203.86342,112.83298 c -2.57012,0 -4.65511,-1.67627 -4.65511,-3.74451 V 82.619692 c 0,-2.068235 2.08499,-3.746063 4.65511,-3.746063 h 30.76647 c 2.57013,0 4.65319,1.677828 4.65319,3.746063 v 26.468778 c 0,2.06824 -2.08306,3.74451 -4.65319,3.74451 z"
-         id="path2619-0-2-7"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95" />
-      <path
-         style="fill:none;stroke:#0066ff;stroke-width:2.64365px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 203.87685,113.60135 c -2.56789,0 -4.65105,-1.73797 -4.65105,-3.88232 V 82.276194 c 0,-2.144347 2.08316,-3.883919 4.65105,-3.883919 h 30.73961 c 2.56789,0 4.64913,1.739572 4.64913,3.883919 v 27.442836 c 0,2.14435 -2.08124,3.88232 -4.64913,3.88232 z"
-         id="path2621-7-8"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95" />
-      <path
-         style="fill:#da0b3d;fill-opacity:1;stroke:#ff3300;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 206.06199,93.847763 8.70571,-7.536278"
-         id="path2623-1-4-1"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95" />
-      <path
-         style="fill:#da0b3d;fill-opacity:1;stroke:#ff3300;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 220.66071,90.62098 -5.91226,-4.309495"
-         id="path2625-9-9-1"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95" />
-      <path
-         style="fill:#da0b3d;fill-opacity:1;stroke:#ff3300;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 220.66264,90.609583 10.72138,-7.785585"
-         id="path2627-2-2-5"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95" />
-      <path
-         style="fill:#3d3935;fill-opacity:1;stroke:#3d3935;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 207.94098,100.44572 V 97.214667"
-         id="path2629-6-3"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95" />
-      <path
-         style="fill:#3d3935;fill-opacity:1;stroke:#3d3935;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 222.51082,100.44572 V 95.594869"
-         id="path2631-4-2-5"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95" />
-      <path
-         style="fill:#676775;fill-opacity:1;fill-rule:nonzero;stroke:#3d3935;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 215.2105,100.44572 V 93.620324"
-         id="path2633-1-8"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95" />
-      <path
-         style="fill:#3d3935;fill-opacity:1;fill-rule:nonzero;stroke:#3d3935;stroke-width:2.09347;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 230.76604,100.44572 V 89.682668"
-         id="path2635-2-5-23"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95" />
-      <path
-         style="fill:#3d3935;fill-opacity:1;stroke:#002060;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 206.06199,104.3409 h 26.19799"
-         id="path2637-0-1"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95" />
-      <path
-         style="fill:#3d3935;fill-opacity:1;stroke:#002060;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 206.06199,109.23356 h 26.19799"
-         id="path2639-6-6-2"
-         inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
-         inkscape:export-xdpi="95"
-         inkscape:export-ydpi="95" />
-      <text
-         xml:space="preserve"
-         style="font-size:7.11646px;line-height:1.25;font-family:'Prestige Elite Std';-inkscape-font-specification:'Prestige Elite Std';stroke-width:0.177911"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:52.7774px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#06b937;fill-opacity:1;stroke-width:0.328246">T</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.172711"
+       d="m 203.86342,112.83298 c -2.57012,0 -4.65511,-1.67627 -4.65511,-3.74451 V 82.619692 c 0,-2.068235 2.08499,-3.746063 4.65511,-3.746063 h 30.76647 c 2.57013,0 4.65319,1.677828 4.65319,3.746063 v 26.468778 c 0,2.06824 -2.08306,3.74451 -4.65319,3.74451 z"
+       id="path2619-0-2-7"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95" />
+    <path
+       style="fill:none;stroke:#0066ff;stroke-width:2.64365px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 203.87685,113.60135 c -2.56789,0 -4.65105,-1.73797 -4.65105,-3.88232 V 82.276194 c 0,-2.144347 2.08316,-3.883919 4.65105,-3.883919 h 30.73961 c 2.56789,0 4.64913,1.739572 4.64913,3.883919 v 27.442836 c 0,2.14435 -2.08124,3.88232 -4.64913,3.88232 z"
+       id="path2621-7-8"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95" />
+    <path
+       style="fill:#da0b3d;fill-opacity:1;stroke:#ff3300;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 206.06199,93.847763 8.70571,-7.536278"
+       id="path2623-1-4-1"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95" />
+    <path
+       style="fill:#da0b3d;fill-opacity:1;stroke:#ff3300;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 220.66071,90.62098 -5.91226,-4.309495"
+       id="path2625-9-9-1"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95" />
+    <path
+       style="fill:#da0b3d;fill-opacity:1;stroke:#ff3300;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 220.66264,90.609583 10.72138,-7.785585"
+       id="path2627-2-2-5"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95" />
+    <path
+       style="fill:#3d3935;fill-opacity:1;stroke:#3d3935;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 207.94098,100.44572 V 97.214667"
+       id="path2629-6-3"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95" />
+    <path
+       style="fill:#3d3935;fill-opacity:1;stroke:#3d3935;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 222.51082,100.44572 V 95.594869"
+       id="path2631-4-2-5"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95" />
+    <path
+       style="fill:#676775;fill-opacity:1;fill-rule:nonzero;stroke:#3d3935;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 215.2105,100.44572 V 93.620324"
+       id="path2633-1-8"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95" />
+    <path
+       style="fill:#3d3935;fill-opacity:1;fill-rule:nonzero;stroke:#3d3935;stroke-width:2.09347;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 230.76604,100.44572 V 89.682668"
+       id="path2635-2-5-23"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95" />
+    <path
+       style="fill:#3d3935;fill-opacity:1;stroke:#002060;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 206.06199,104.3409 h 26.19799"
+       id="path2637-0-1"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95" />
+    <path
+       style="fill:#3d3935;fill-opacity:1;stroke:#002060;stroke-width:2.09332px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 206.06199,109.23356 h 26.19799"
+       id="path2639-6-6-2"
+       inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.11646px;line-height:1.25;font-family:'Prestige Elite Std';-inkscape-font-specification:'Prestige Elite Std';stroke-width:0.177911"
+       x="315.07181"
+       y="94.4645"
+       id="text2622-2"
+       transform="scale(1.061906,0.94170293)"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95"><tspan
+         sodipodi:role="line"
+         id="tspan2620-8"
          x="315.07181"
          y="94.4645"
-         id="text2622-2"
-         transform="scale(1.061906,0.94170293)"><tspan
-           sodipodi:role="line"
-           id="tspan2620-8"
-           x="315.07181"
-           y="94.4645"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#f88d2b;fill-opacity:1;stroke-width:0.177911">TM</tspan></text>
-    </g>
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';fill:#f88d2b;fill-opacity:1;stroke-width:0.177911">TM</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
