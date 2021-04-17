@@ -3188,12 +3188,10 @@
      inkscape:label="BIRT-02"
      style="display:inline">
     <g
-       id="g1729"
-       inkscape:export-xdpi="21.592232"
-       inkscape:export-ydpi="21.592232">
+       id="g1587">
       <path
-         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.165619"
-         d="m 56.711289,88.81819 c -2.570129,0 -4.655111,-1.54144 -4.655111,-3.44332 V 61.035119 c 0,-1.901876 2.084982,-3.444747 4.655111,-3.444747 h 30.766463 c 2.570133,0 4.653189,1.542871 4.653189,3.444747 V 85.37487 c 0,1.90188 -2.083056,3.44332 -4.653189,3.44332 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.170299"
+         d="m 56.711289,88.81819 c -2.570129,0 -4.655111,-1.629781 -4.655111,-3.640659 V 59.442849 c 0,-2.010874 2.084982,-3.642168 4.655111,-3.642168 h 30.766463 c 2.570133,0 4.653189,1.631294 4.653189,3.642168 v 25.734682 c 0,2.010878 -2.083056,3.640659 -4.653189,3.640659 z"
          id="path2619-0-2"
          inkscape:export-filename="C:\Users\loetz\Documents\_Extern Compex\Eclipse-Projects\birt-dev\static\img\BIRT-03.png"
          inkscape:export-xdpi="95"
