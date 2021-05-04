@@ -1,0 +1,1 @@
+(self.webpackChunkbirt_dev=self.webpackChunkbirt_dev||[]).push([[8086],{4763:function(e){"use strict";e.exports=JSON.parse('{"permalink":"/birt-website/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

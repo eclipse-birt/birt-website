@@ -1,0 +1,1 @@
+(self.webpackChunkbirt_dev=self.webpackChunkbirt_dev||[]).push([[3245],{9516:function(t){"use strict";t.exports=JSON.parse('{"allTagsPath":"/birt-website/blog/tags","slug":"birt","name":"birt","count":1,"permalink":"/birt-website/blog/tags/birt"}')}}]);
