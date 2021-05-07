@@ -3,9 +3,6 @@ id: mdx
 title: Powered Compex FEATURES
 ---
 
-This file is left intentionaly as cheatsheet.... :))
-
-
 import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc} />;
