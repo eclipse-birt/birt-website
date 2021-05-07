@@ -1,4 +1,4 @@
-name: BIRT-website
+name: BIRT-website 
 
 on:
   pull_request:
