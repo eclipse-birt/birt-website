@@ -5,12 +5,12 @@
 module.exports = {
   
   title: 'BIRT',
-  tagline: 'Busines Inteligence Reporting Tool',
+  tagline: 'Business Intelligence Reporting Tool',
   url: 'https://eclipse.github.io',
   baseUrl: '/birt-website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/BIRT-Icon.png',
+  favicon: 'img/BIRT-Icon.ico',
   organizationName: 'eclipse', // Usually your GitHub org/user name.
   projectName: '/birt-website', // Usually your repo name. birt-website
   themeConfig: {
