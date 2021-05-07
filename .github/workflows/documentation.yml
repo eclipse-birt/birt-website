@@ -1,4 +1,4 @@
-name: documentation
+name: BIRT-website
 
 on:
   pull_request:
