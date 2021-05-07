@@ -1,9 +1,11 @@
-name: BIRT-website 
-
+name: Documentation
 on:
   pull_request:
     branches: [documentation]
   push:
+    branches: [documentation]
+    on:
+  workflow_dispatch:
     branches: [documentation]
 
 jobs:
