@@ -8,7 +8,7 @@ sidebar_label: Basic Tutorial
 
 The following videos walks you though the steps to build a basic listing report and introduces the basic BIRT concepts. This is the place to start. 
 
-$$$Video Tutorials
+$$$Video Tutorials Video is to be updated.
 
 *    Youtube -BIRT Report Designer Tutorial Part-1
 
