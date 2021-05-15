@@ -5,15 +5,15 @@ sidebar_label: What is BIRT?
 ---
 
 ## The Project
-BIRT means Business Intelligence Reporting Tool and that sums it up quite nicely.BIRT is able to pull and combine data from many different data sources (Databases, plan files, Java, Javascript, webservices, etc..) and use this data for reporting (textual) and charting (visual).
+BIRT means Business Intelligence Reporting Tool, and that sums it up quite nicely. BIRT can pull and combine data from many different data sources (Databases, files, Java, Javascript, web services, etc..) and use this data for reporting (textual) and charting (visual).
 
-BIRT is an open source software project that provides the BIRT technology platform to create data visualizations and reports that can be embedded into desktop and web applications, especially those based on Java and Jakarta EE. BIRT is a top-level software project within the Eclipse Foundation.
+BIRT is an open-source software project that provides the BIRT technology platform to create data visualizations. Users can embed reports into desktop and web applications, especially those based on Java and Jakarta EE. BIRT is a top-level software project within the Eclipse Foundation.
 
-The BIRT project addresses a wide range of reporting needs. Reporting capabilities in an application are often implemented in an ad hoc fashion by the application developer, using technology that is not ideally suited to the task, or through the development of a one-off solution for that application. This is expensive and time-consuming, and provides limited reporting capabilities for the end users of the application. BIRT addresses this problem by providing Eclipse-based open source and extensible tools and frameworks that allow developers to easily incorporate reporting functionality within their applications.
+The BIRT project addresses a wide range of reporting needs. Reporting capabilities in an application are often implemented in an ad hoc fashion by the application developer, using technology that is not ideal for developing a one-off solution for that application. This is expensive and time-consuming and provides limited reporting capabilities for the end-users of the application. BIRT addresses this problem by delivering Eclipse-based open source and extensible tools and frameworks that allow developers to incorporate reporting functionality within their applications easily.
 
-BIRT is supported by an active community of committers, contributers and users here at Eclipse.org. BIRT is also supported by the Open Standard Business Platform Project (OSBP) and its Open Standard Business Application Working Group (OSbea).
+BIRT is supported by an active community of committers, contributors, and users here at Eclipse.org. The Open Standard Business Platform Project (OSBP) and its Open Standard Business Application Working Group (OSbea) also support BIRT.
 
-The project is driven by large team of committers and contributors as well as from a large amout of companies. BIRT was origanaly initiated and sponsored by Actuate with contributions from IBM, and Innovent Solutions.  It is licensed under the Eclipse Public License (EPL).
+The project is driven by a team of committers, contributors, and companies. BIRT was originally initiated and sponsored by Actuate with contributions from IBM and Innovent Solutions.  BIRT is licensed under the Eclipse Public License (EPL).
 
 ![img](/img/Logo-Compex.png)
 
@@ -23,9 +23,9 @@ The project is driven by large team of committers and contributors as well as fr
 
 ## The Groundswell
 
-Today, BIRT technology platform is one of the most widely
-adopted data visualization and reporting technologies with over 12
-million downloads and over 2.5M report developers across 157 countries. BIRT
+Today, the BIRT technology platform is one of the most widely
+adopted data visualization and reporting technologies, with over 12
+million downloads and around 2.5M report developers across 157 countries. BIRT
 also has a growing developer community representing
 all types of organizations. Major technology companies such as IBM,
 Cisco, S1 and ABS Nautical Systems as well as Eclipse projects like OSBP have incorporated BIRT into their
@@ -34,15 +34,14 @@ product lines.
 ## The Technology Platform
 
 BIRT has two main components: a visual report designer for
-creating BIRT Designs, and a runtime component for generating those
-designs that can be deployed to any Java environment. The BIRT project
+creating BIRT Designs and a runtime component for running them. The BIRT project
 also includes a charting engine that is both fully integrated into the
-BIRT designer and can be used standalone to integrate charts into an
+BIRT designer and can be used standalone to incorporate charts into an
 application.
 
-BIRT designs are persisted as XML and can access a number of
-different data sources including JDO datastores, JFire Scripting
-Objects, POJOs, SQL databases, Web Services and XML.
+BIRT designs are persisted as XML and can access many
+different data sources, including JDO datastores, JFire Scripting
+Objects, POJOs, SQL databases, Web Services, and XML.
 
 [Learn more about BIRT Architecture](overview-architecture)
 
@@ -64,7 +63,7 @@ In this section, you'll get an overview of what a BIRT design is, including:
 
 ## Architecture Overview
 
-In this section, you'll get an overview of the BIRT architecure. Topics included:
+In this section, you'll get an overview of the BIRT architecture. Topics included:
 
 *   BIRT Components
 
