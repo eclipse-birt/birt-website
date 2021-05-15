@@ -5,8 +5,9 @@ sidebar_label: What is BIRT?
 ---
 
 ## The Project
+BIRT means Business Intelligence Reporting Tool and that sums it up quite nicely.BIRT is able to pull and combine data from many different data sources (Databases, plan files, Java, Javascript, webservices, etc..) and use this data for reporting (textual) and charting (visual).
 
-BIRT is an open source software project that provides the BIRT technology platform to create data visualizations and reports that can be embedded into rich client and web applications, especially those based on Java and Jakarta EE. BIRT is a top-level software project within the Eclipse Foundation.
+BIRT is an open source software project that provides the BIRT technology platform to create data visualizations and reports that can be embedded into desktop and web applications, especially those based on Java and Jakarta EE. BIRT is a top-level software project within the Eclipse Foundation.
 
 The BIRT project addresses a wide range of reporting needs. Reporting capabilities in an application are often implemented in an ad hoc fashion by the application developer, using technology that is not ideally suited to the task, or through the development of a one-off solution for that application. This is expensive and time-consuming, and provides limited reporting capabilities for the end users of the application. BIRT addresses this problem by providing Eclipse-based open source and extensible tools and frameworks that allow developers to easily incorporate reporting functionality within their applications.
 
@@ -24,8 +25,8 @@ The project is driven by large team of committers and contributors as well as fr
 
 Today, BIRT technology platform is one of the most widely
 adopted data visualization and reporting technologies with over 12
-million downloads and over 2.5M developers across 157 countries. BIRT
-also has a large, active and growing developer community representing
+million downloads and over 2.5M report developers across 157 countries. BIRT
+also has a growing developer community representing
 all types of organizations. Major technology companies such as IBM,
 Cisco, S1 and ABS Nautical Systems as well as Eclipse projects like OSBP have incorporated BIRT into their
 product lines.
@@ -56,7 +57,6 @@ software design and quality.
 In this section, you'll get an overview of what a BIRT design is, including:
 
 *   Report Introduction
-
 
 *   The Anatomy of a Report
 
