@@ -5,6 +5,7 @@ sidebar_label: What is BIRT?
 ---
 
 ## The Project
+
 BIRT means Business Intelligence Reporting Tool, and that sums it up quite nicely. BIRT can pull and combine data from many different data sources (Databases, files, Java, Javascript, web services, etc..) and use this data for reporting (textual) and charting (visual).
 
 BIRT is an open-source software project that provides the BIRT technology platform to create data visualizations. Users can embed reports into desktop and web applications, especially those based on Java and Jakarta EE. BIRT is a top-level software project within the Eclipse Foundation.
