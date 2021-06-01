@@ -5,8 +5,6 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -15,8 +13,6 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-  
-    environment: github-pages
 
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -36,5 +32,5 @@ jobs:
       - name: Deploy Github Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GHPAGES_PUSH }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
