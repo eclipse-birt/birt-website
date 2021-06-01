@@ -4,14 +4,14 @@
         <title>BIRT Blog</title>
         <link>https://eclipse.github.io/blog</link>
         <description>BIRT Blog</description>
-        <lastBuildDate>Mon, 31 May 2021 17:41:11 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Jun 2021 12:40:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://eclipse.github.io/birt-website/blog/welcome</link>
             <guid>welcome</guid>
-            <pubDate>Mon, 31 May 2021 17:41:11 GMT</pubDate>
+            <pubDate>Tue, 01 Jun 2021 12:40:15 GMT</pubDate>
             <description><![CDATA[Welcome to BIRT. Get it started and enjoy... :)]]></description>
         </item>
     </channel>
