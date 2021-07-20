@@ -3,7 +3,6 @@ id: what-is-birt
 title: What is BIRT?
 sidebar_label: What is BIRT?
 ---
-test
 ## The Project
 BIRT means Business Intelligence Reporting Tool, and that sums it up quite nicely. BIRT can pull and combine data from many different data sources (Databases, files, Java, Javascript, web services, etc..) and use this data for reporting (textual) and charting (visual).
 
