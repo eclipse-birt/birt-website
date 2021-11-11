@@ -37,7 +37,7 @@ jobs:
         with:
           name: website
           path: |
-            .build
+            birt-website
       
       # Deploy to ghpages branch
       - name: Deploy Github Pages
