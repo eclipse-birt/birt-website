@@ -28,6 +28,14 @@ jobs:
         run: |
           npm i
           npm run build
+
+      # Archive the result
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: website
+          path: |
+            .build
       
       # Deploy to ghpages branch
       - name: Deploy Github Pages
