@@ -1,10 +1,10 @@
 ---
 id: overview-architecture
 title: Archticture
-sidebar_label: Archticture
+sidebar_label: Architecture
 ---
 
-## Architectur Overview of BIRT
+## Architecture Overview of BIRT
 
 BIRT has two main components: 
 
