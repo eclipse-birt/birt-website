@@ -35,7 +35,7 @@ Deploy the BIRT Viewer application. Follow these steps:
     
 * A page confirming that the BIRT viewer has been installed should be displayed. Click on the link labeled "View Example" to confirm that your installation is working properly.
 
-    * The BIRT Viewer requires that cookies be enabled.
+* The BIRT Viewer requires that cookies be enabled.
 
 If you choose to put the Viewer into some other location, you'll need to use a context entry within the server.xml file to indicate the deployment location. See Tomcat documentation for details.
 
