@@ -21,7 +21,7 @@ Note that the BIRT Viewer requires that cookies be enabled.
 
 [Using the BIRT Viewer](viewer-usage.md) discusses the viewer operation URLs, parameters and settings.
 
-[Using the Viewer from PHP](viewer-php.md) discusses how to run BIRT reports from a non-Java scripting environment such as PHP.
+[Using the Viewer from PHP](using-php.md) discusses how to run BIRT reports from a non-Java scripting environment such as PHP.
 
 [Viewer Tag Library](viewer-usage.md) discusses how to integrate BIRT using the Tag Libraries.
 
