@@ -83,13 +83,14 @@ If you are deploying BIRT version 2 series to JBoss use the following steps:
 * Start up JBoss and enter the URL to BIRT (ie http://localhost:8080/birt) and run the test report.
 
 If you are deploying the BIRT Viewer version 3.7 or later to JBoss use the directions supplied on the following link:
+
 [BIRT POJO Viewer JBoss Deployment](https://wiki.eclipse.org/BirtPOJO_Viewer_JBOSS_Deployment)
 
 ### Other Java EE Servers
 BIRT FAQ has instructions for many other deployement options.
 
 If you are installing BIRT 3.7 or later see these pages:
-[BIRT POJO Viewer Websphere Deployment](https://wiki.eclipse.org/BirtPOJO_Viewer_WebSphere_Deployment)
-[BIRT POJO Viewer WebLogic Deployment](https://wiki.eclipse.org/BirtPOJO_Viewer_WebLogic_Deployment)
-[BIRT POJO Viewer JBoss Deployment](https://wiki.eclipse.org/BirtPOJO_Viewer_JBOSS_Deployment)
-[BIRT POJO Viewer Tomcat Deployment](https://wiki.eclipse.org/BirtPOJO_Viewer_Tomcat_Deployment)
+* [BIRT POJO Viewer Websphere Deployment](https://wiki.eclipse.org/BirtPOJO_Viewer_WebSphere_Deployment)
+* [BIRT POJO Viewer WebLogic Deployment](https://wiki.eclipse.org/BirtPOJO_Viewer_WebLogic_Deployment)
+* [BIRT POJO Viewer JBoss Deployment](https://wiki.eclipse.org/BirtPOJO_Viewer_JBOSS_Deployment)
+* [BIRT POJO Viewer Tomcat Deployment](https://wiki.eclipse.org/BirtPOJO_Viewer_Tomcat_Deployment)
