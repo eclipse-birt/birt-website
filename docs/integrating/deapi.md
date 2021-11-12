@@ -56,7 +56,7 @@ The following code shows a simple example that creates a working report design. 
 
 *    [Report produced by the example](res/sample.rptdesign)
 
-*    [HTML output of the above report](res/sample.html  )
+*    [HTML output of the above report](res:///sample.html  )
 
 The first step is to create an instance of the design engine.
 
