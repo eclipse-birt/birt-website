@@ -487,7 +487,7 @@ The BIRT Viewer application will load the plug-ins from /WEB-INF/Plugins directo
 
 #### Embedding Report Output
 
-If you need to embed your report output into an existing web page you can use the _options.setEmbeddable(true);_ method. This will remove the <HTML> and <BODY> tags in the generated report. For example,
+If you need to embed your report output into an existing web page you can use the _options.setEmbeddable(true);_ method. This will remove the \<HTML\> and \<BODY\> tags in the generated report. For example,
 
 	public void embedReport( HttpServletResponse response ){
 	.
