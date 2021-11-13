@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[60],{129:function(s){s.exports=JSON.parse('{"allTagsPath":"/birt-website/blog/tags","slug":"o-sbea","name":"osbea","count":1,"permalink":"/birt-website/blog/tags/o-sbea"}')}}]);
