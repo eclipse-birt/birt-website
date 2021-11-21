@@ -10,9 +10,10 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/BIRT-Icon.ico',
+  favicon: 'img/BIRT-Icon.ico/',
   organizationName: 'eclipse', // Usually your GitHub org/user name.
-  projectName: '/birt-website', // Usually your repo name. birt-website
+  projectName: 'birt-website', // Usually your repo name. birt-website
+  deploymentBranch: 'github.io',
   themeConfig: {
     navbar: {
       title: 'HOME',
