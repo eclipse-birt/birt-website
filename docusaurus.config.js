@@ -40,6 +40,12 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'docs/integrating/integrating',
+          activeBasePath: 'docs/integrating/integrating',
+          label: 'Integrating',
+          position: 'left',
+        },        
+        {
           to: 'docs/template-introduction',
           activeBasePath: 'docs/template-introduction',
           label: 'Templates',

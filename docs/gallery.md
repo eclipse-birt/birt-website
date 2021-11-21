@@ -26,3 +26,15 @@ Compex Commerce uses BIRT in very different ways. This ranges from pure reportin
 
 ![img](/img/Compex-Commerce-Hardcopy.png)
 
+## U2logic, Inc.
+
+ [U2logic](https://www.u2logic.com/)
+ 
+U2logic created an Open Data Access (ODA) connection to access Universe and Unidata databases from [Rocket Software](https://www.rocketsoftware.com/platforms/multivalue) (U2). These U2 databases are [multivalued](https://en.wikipedia.org/wiki/MultiValue) and do not lend themselves to easy access without this ODA. Using this interface to BIRT allows us to produce timely, informative, and should we dare say pretty reports just like any other database supported by BIRT.
+
+Our component pay system for drivers can get fairly complex in its calculations and it helps to have the ability to show the data in a consumable way as can be seen on our sample payroll attached herein using the BIRT report designer. This pay system is table-driven so you can control how drivers get paid. Each distribution center or dispatch region can pay differently with full integration to your current payroll service company. With mobile access, drivers can see their pay sheets anytime that is created using BIRT and having the output PDF emitter.
+
+
+![img](/img/u2logic_PayrollReport.jpg)
+
+![img](/img/u2logic_PayrollPDF.jpg)

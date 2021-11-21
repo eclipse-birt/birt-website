@@ -3188,7 +3188,9 @@
      inkscape:label="BIRT-02"
      style="display:inline">
     <g
-       id="g1587">
+       id="g1587"
+       inkscape:export-xdpi="95"
+       inkscape:export-ydpi="95">
       <path
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.170299"
          d="m 56.711289,88.81819 c -2.570129,0 -4.655111,-1.629781 -4.655111,-3.640659 V 59.442849 c 0,-2.010874 2.084982,-3.642168 4.655111,-3.642168 h 30.766463 c 2.570133,0 4.653189,1.631294 4.653189,3.642168 v 25.734682 c 0,2.010878 -2.083056,3.640659 -4.653189,3.640659 z"

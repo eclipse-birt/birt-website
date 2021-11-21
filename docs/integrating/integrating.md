@@ -17,12 +17,12 @@ Note that the BIRT Viewer requires that cookies be enabled.
 * As a plugin in existing RCP applications.
 
 #### Web Viewer Links
-[Integrating the BIRT Viewer](viewer-setup.md) explains how to deploy the BIRT viewer onto your own application server. The explanation uses Apache Jakarta Tomcat as the sample deployment target.
+[Integrating the BIRT Viewer](integrating/viewer-setup.md) explains how to deploy the BIRT viewer onto your own application server. The explanation uses Apache Jakarta Tomcat as the sample deployment target.
 
-[Using the BIRT Viewer](viewer-usage.md) discusses the viewer operation URLs, parameters and settings.
+[Using the BIRT Viewer](integrating/viewer-usage.md) discusses the viewer operation URLs, parameters and settings.
 
-[Using the Viewer from PHP](using-php.md) discusses how to run BIRT reports from a non-Java scripting environment such as PHP.
+[Using the Viewer from PHP](integrating/using-php.md) discusses how to run BIRT reports from a non-Java scripting environment such as PHP.
 
-[Viewer Tag Library](viewer-usage.md) discusses how to integrate BIRT using the Tag Libraries.
+[Viewer Tag Library](integrating/viewer-usage.md) discusses how to integrate BIRT using the Tag Libraries.
 
 The viewer code is available in the BIRT source repository in the [org.eclipse.birt.report.viewer](https://github.com/eclipse/birt/tree/master/viewer/org.eclipse.birt.report.viewer) project. See the [BIRT build instructions](https://github.com/eclipse/birt/blob/master/README.md) for information on how to access the sources and build the viewer.

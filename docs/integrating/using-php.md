@@ -31,7 +31,7 @@ The name of the report is given as an absolute path, but a relative path is also
 
 ### Passing Parameters
 
-Suppose your report takes parameters. The test report above has one parameter called sample. We simply add them to the report URL in the form described in [Using the Report Viewer](viewer-usage.md).
+Suppose your report takes parameters. The test report above has one parameter called sample. We simply add them to the report URL in the form described in [Using the Report Viewer](integrating/viewer-usage.md).
 
     $fname = "c:/temp/test.rptdesign";
     $paramValue = "Hi there!";
