@@ -384,3 +384,15 @@ https://www.w3schools.com/react/react_getstarted.asp
 ## Slide show
 https://github.com/gnab/remark
 
+-----------How to update packages --------------------
+https://stackoverflow.com/questions/62650640/yarn-how-do-i-update-each-dependency-in-package-json-to-the-latest-version
+
+rename yarn.lock to yarn.lock.org
+
+Then run yarn to create structure. 
+yarn install
+
+After that you can do upgrade-interactive. 
+yarn upgrade-interactive --latest
+
+Check package.json.
