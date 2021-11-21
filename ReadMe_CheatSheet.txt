@@ -15,7 +15,7 @@ npm run start
 npm run build
 npm run serve
 
-cmd /C 'set "GIT_USER=chloetz" "USE_SSH=true" && yarn deploy'
+cmd /C "set "GIT_USER=chloetz" "USE_SSH=true" && yarn deploy"
 
 GIT_USER=<chloetz> USE_SSH=true yarn deploy
 
