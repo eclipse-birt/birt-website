@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbirt_website=self.webpackChunkbirt_website||[]).push([[881],{8062:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/o-sbea","name":"OSbea","count":1,"permalink":"/blog/tags/o-sbea"}')}}]);
