@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbirt_website=self.webpackChunkbirt_website||[]).push([[2535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/birt-website/blog/welcome"}]}')}}]);
