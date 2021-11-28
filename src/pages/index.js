@@ -86,10 +86,24 @@ export default function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/installation')}>
-              Get Started
+              to={useBaseUrl('https://download.eclipse.org/birt/downloads/drops/')}>
+              Download BIRT
             </Link>
-          </div>
+           </div>          
+                   
+           <p className="hero__subtitle"></p>
+          <p></p>
+          <div className={styles.buttons}>
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/installation')}>
+              Learn More
+            </Link>
+           </div>
+
         </div>
       </header>
       <main>

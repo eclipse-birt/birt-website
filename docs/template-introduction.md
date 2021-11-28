@@ -12,7 +12,7 @@ If you get stuck as you work through the tutorials, or if you want to see the fi
 
 
 :::tip
-** [you can simply download all reports and their templates here](../template-download).**
+** [you can simply download all reports and their templates here](template-download.js).**
 :::
 
 

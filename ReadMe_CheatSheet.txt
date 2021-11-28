@@ -396,3 +396,19 @@ After that you can do upgrade-interactive.
 yarn upgrade-interactive --latest
 
 Check package.json.
+
+
+-------------------  Download button in *.js file -----------------------------------
+
+            <p className="hero__subtitle"></p>
+              Text before Button              <br/>
+
+           <button type="button">
+              <a href="LINK-to-DOWNLOADFILE"               
+              className={clsx('button button--outline button--secondary button--lg', styles.getStarted,)} download> 
+                Download what so ever
+              </a>
+            </button> 
+
+
+            
