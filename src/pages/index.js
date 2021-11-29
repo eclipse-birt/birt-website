@@ -70,29 +70,17 @@ export default function Home() {
       description="BIRT Home Page, Eclipse Project <head />">
       <header className={clsx('hero hero--secondary', styles.heroBanner)}>
         <div className="container">
-
-        <img
-            className={clsx(styles.heroBannerLogo, 'margin-vert--md')}
-            alt="Create React App logo"
-            src={useBaseUrl('/img/BIRT-Logo.png')}
+          <img
+              className={clsx(styles.heroBannerLogo, 'margin-vert--md')}
+              alt="Create React App logo"
+              src={useBaseUrl('/img/BIRT-Logo.png')}
           />
           
-          <p className="hero__subtitle">{siteConfig.tagline}
-          </p>
-          With BIRT you can create data visualizations, dashboards and reports <br/>that can be embedded into web applications and rich clients. Make information out of your data! <p></p>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('https://download.eclipse.org/birt/downloads/drops/')}>
-              Download BIRT
-            </Link>
-           </div>          
-                   
-           <p className="hero__subtitle"></p>
-          <p></p>
+          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          With BIRT you can create data visualizations, dashboards and reports 
+          <br/>that can be embedded into web applications and rich clients. Make information out of your data! 
+          
+          <p> </p>
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -100,10 +88,21 @@ export default function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/installation')}>
-              Learn More
+              Download BIRT
             </Link>
-           </div>
-
+          </div>
+          
+          <p> </p>
+          <div className={styles.buttons}>
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/installation')}>
+              Get Started
+            </Link>
+          </div>
         </div>
       </header>
       <main>
