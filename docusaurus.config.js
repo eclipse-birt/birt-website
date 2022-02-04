@@ -8,7 +8,7 @@ module.exports = {
   tagline: 'Business Intelligence Reporting Tool',
   url: 'https://eclipse.github.io/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore', // default = warn
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/BIRT-Icon.ico/',
   organizationName: 'eclipse', // Usually your GitHub org/user name.

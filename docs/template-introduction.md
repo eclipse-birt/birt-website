@@ -8,11 +8,11 @@ Welcome to the example and template section of the BIRT site. Here you will find
 
 ## How to proceed
 
-If you get stuck as you work through the tutorials, or if you want to see the finished report and its template right away, 
+If you get stuck as you work through the tutorials, or if you want to see the finished report and its template right away. 
 
 
 :::tip
-** [you can simply download all reports and their templates here](template-download.js).**
+** [you can simply download all reports and their templates here](../src/pages/template-download).**
 :::
 
 
@@ -22,7 +22,7 @@ To try a report for yourself, save it to disk and then use File-->Import to brin
 
 ## Solution Reports
 
-The example reports here show just a few of the things you can do with BIRT. Unless otherwise noted, the reports are meant to be run against the "Classic Models Inc." **sample database that is included on the BIRT download page [here](../template-download).**
+The example reports here show just a few of the things you can do with BIRT. Unless otherwise noted, the reports are meant to be run against the "Classic Models Inc." **sample database that is included on the BIRT download page [here](../src/pages/template-download).**
 
 ### Product Catalog
 
@@ -159,4 +159,3 @@ This section of Examples focuses on Extending BIRT. The examples here focus on i
 **[View Aggregate rptdesign-file here.](https://www.eclipse.org/birt/phoenix/examples/extending/aggregate/optim.rptdesign)**
 
 This example shows how to create a BIRT Aggregate Data Extension. Imagine your manager wants you to create a new more optimistic way to sum up data in a report. Is there a way that you can create a common solution that can be consistently re-used across all of your reports? Through the Birt Aggregate Data Extension you can create new custom functions that show up as native BIRT functions.
-
