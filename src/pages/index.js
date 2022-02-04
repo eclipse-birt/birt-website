@@ -75,12 +75,27 @@ export default function Home() {
               alt="Create React App logo"
               src={useBaseUrl('/img/BIRT-Logo.png')}
           />
-          
+
           <p className="hero__subtitle">{siteConfig.tagline}</p>
+                  
           With BIRT you can create data visualizations, dashboards and reports 
           <br/>that can be embedded into web applications and rich clients. Make information out of your data! 
           
           <p> </p>
+
+          <p className="hero__title">
+          Good news !
+          </p>
+          
+          <p className="hero__subtitle">
+          The BIRT project has picked up again and a new release will be available soon.<br/>
+          The goal of this release is to make BIRT run with newer versions of Java (requires Java 11)<br/>
+          and to fix some long outstanding bugs.<br/><br/> 
+          Your help is welcome on our adventure into the future !
+          </p>
+
+          <p></p>
+  
           <div className={styles.buttons}>
             <Link
               className={clsx(
