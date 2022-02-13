@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbirt_website=self.webpackChunkbirt_website||[]).push([[4291],{1378:function(e){e.exports=JSON.parse('{"allTagsPath":"/birt-website/blog/tags","slug":"/birt-website/blog/tags/osbp","name":"OSBP","count":1,"permalink":"/birt-website/blog/tags/osbp"}')}}]);

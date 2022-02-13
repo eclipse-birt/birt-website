@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbirt_website=self.webpackChunkbirt_website||[]).push([[4450],{5677:function(e){e.exports=JSON.parse('{"allTagsPath":"/birt-website/blog/tags","slug":"/birt-website/blog/tags/o-sbea","name":"OSbea","count":1,"permalink":"/birt-website/blog/tags/o-sbea"}')}}]);

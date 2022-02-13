@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbirt_website=self.webpackChunkbirt_website||[]).push([[3245],{9363:function(t){t.exports=JSON.parse('{"allTagsPath":"/birt-website/blog/tags","slug":"/birt-website/blog/tags/birt","name":"BIRT","count":1,"permalink":"/birt-website/blog/tags/birt"}')}}]);

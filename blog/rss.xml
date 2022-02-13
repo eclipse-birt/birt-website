@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>BIRT Blog</title>
-        <link>https://eclipse.github.io/birt-website/blog</link>
+        <link>https://eclipse.github.io/blog</link>
         <description>BIRT Blog</description>
-        <lastBuildDate>Tue, 23 Nov 2021 19:36:09 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 13 Feb 2022 21:31:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://eclipse.github.io/birt-website/blog/welcome</link>
+            <link>https://eclipse.github.io/blog/welcome</link>
             <guid>welcome</guid>
-            <pubDate>Tue, 23 Nov 2021 19:36:09 GMT</pubDate>
+            <pubDate>Sun, 13 Feb 2022 21:31:31 GMT</pubDate>
             <description><![CDATA[Welcome to BIRT. Get it started and enjoy... :)]]></description>
             <content:encoded><![CDATA[<p>Welcome to BIRT. Get it started and enjoy... :)</p><p>Welcome BIRT&#x27;s blog. </p><p>Please feel free to blog... :)</p>]]></content:encoded>
         </item>
