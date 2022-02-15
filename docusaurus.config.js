@@ -7,7 +7,7 @@ module.exports = {
   title: 'BIRT',
   tagline: 'Business Intelligence Reporting Tool',
   url: 'https://eclipse.github.io/',
-  baseUrl: '/',
+  baseUrl: '/birt-website/index.html/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/BIRT-Icon.ico/',
