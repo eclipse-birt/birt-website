@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbirt_website=self.webpackChunkbirt_website||[]).push([[2977],{6887:function(e){e.exports=JSON.parse('{"allTagsPath":"/birt-website/blog/tags","slug":"/birt-website/blog/tags/compex-commerce","name":"Compex Commerce","count":1,"permalink":"/birt-website/blog/tags/compex-commerce"}')}}]);

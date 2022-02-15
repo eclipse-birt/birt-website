@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbirt_website=self.webpackChunkbirt_website||[]).push([[9749],{1011:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/osbp","name":"OSBP","count":1,"permalink":"/blog/tags/osbp"}')}}]);
