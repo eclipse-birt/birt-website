@@ -82,7 +82,7 @@ export default function Home() {
           <br/>that can be embedded into web applications and rich clients. Make information out of your data! 
           
           <p> </p>
-
+          
           <p className="hero__title">
           Good news !
           </p>
