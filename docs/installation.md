@@ -8,7 +8,7 @@ sidebar_label: Installation
 
 BIRT has a design and runtime component. Both can be found in several different forms and versions. The BIRT download site is here:
 
-<center>**[https://downloads.eclipse.org/birt](https://downloads.eclipse.org/birt)**</center>
+<center>[** https://downloads.eclipse.org/birt **](https://downloads.eclipse.org/birt)</center>
 
 ## Sources
 
