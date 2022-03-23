@@ -4,16 +4,21 @@
         <title>BIRT Blog</title>
         <link>https://eclipse.github.io/birt-website/blog</link>
         <description>BIRT Blog</description>
-        <lastBuildDate>Tue, 15 Mar 2022 16:22:30 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 14 Mar 0121 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://eclipse.github.io/birt-website/blog/welcome</link>
             <guid>welcome</guid>
-            <pubDate>Tue, 15 Mar 2022 16:22:30 GMT</pubDate>
+            <pubDate>Fri, 14 Mar 0121 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to BIRT. Get it started and enjoy... :)]]></description>
-            <content:encoded><![CDATA[<p>Welcome to BIRT. Get it started and enjoy... :)</p><p>Welcome BIRT&#x27;s blog. </p><p>Please feel free to blog... :)</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Welcome to BIRT. Get it started and enjoy... :)</p><p>Welcome BIRT's blog. </p><p>Please feel free to blog... :)</p>]]></content:encoded>
+            <category>Compex Commerce</category>
+            <category>OSBP</category>
+            <category>OS.bee</category>
+            <category>OSbea</category>
+            <category>BIRT</category>
         </item>
     </channel>
 </rss>
