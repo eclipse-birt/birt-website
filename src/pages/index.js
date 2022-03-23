@@ -88,7 +88,7 @@ export default function Home() {
           </p>
           
           <p className="hero__subtitle">
-          The BIRT project has picked up again and a new release will be available soon.<br/>
+          The BIRT project has picked up again and a new release 4.9.0 is available.<br/>
           The goal of this release is to make BIRT run with newer versions of Java (requires Java 11)<br/>
           and to fix some long outstanding bugs.<br/><br/> 
           Your help is welcome on our adventure into the future !
