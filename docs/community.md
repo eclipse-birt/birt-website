@@ -15,7 +15,7 @@ BIRT uses GitHub issues to track bugs and enhancement requests.
 
   *  **[Join Eclipse](https://accounts.eclipse.org/user/register)** - If you want to help coding: create an Eclipse account and associate your GitHub user.
 
-  *  **[Report a Bug or Enhancement](https://github.com/eclipse/issues)** - When reporting a bug, please give the exact steps to reproduce the problem. Please explain what went wrong, and what you expected to happen. For an enhancement, please explain how you'd use the new feature.
+  *  **[Report a Bug or Enhancement](https://github.com/eclipse/birt/issues)** - When reporting a bug, please give the exact steps to reproduce the problem. Please explain what went wrong, and what you expected to happen. For an enhancement, please explain how you'd use the new feature.
 
 <div class="alert alert--warning" role="alert">
   BIRT bugs are often associated with a report design. Please attach your design to your Bugzilla entry.
