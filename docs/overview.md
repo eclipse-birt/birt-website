@@ -54,7 +54,7 @@ and introduces the basic BIRT concepts. The topics include:
 
 *   Using a Grid
 
-*   Using a Text Item
+*   Using a Text Item 
 
 *   Next Steps
 
