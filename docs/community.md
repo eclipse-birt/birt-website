@@ -19,7 +19,7 @@ BIRT uses GitHub issues to track bugs and enhancement requests.
 
 <div class="alert alert--warning" role="alert">
   BIRT bugs are often associated with a report design. Please attach your design to your issue.
-  A report which demonstrates the issue with the ClassiModels builtin data source is best (without dependencies to external data like databases, libraries etc). Be aware that the your rptdesign can be seen by everybody, so remove critical content like e.g. DB credentials before posting.
+  A report which demonstrates the issue with the ClassicModels builtin data source is best (without dependencies to external data like databases, libraries etc). Be aware that your rptdesign can be seen by everybody, so remove critical content like DB credentials before posting.
 </div>
 
 If you encounter a problem such as "An error occurred", or failure to open views or editors, please attach your Eclipse log file. To see the exception, use Window -> Show View -> Other. Open the PDE Runtime group and choose Error Log. Within the error log window, find the BIRT exception (if any) that just occurred. Double click on the error in question and you'll see a stack trace. Paste that into your bug report, preferably as a file attachment.
