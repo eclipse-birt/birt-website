@@ -73,7 +73,7 @@ module.exports = {
           title: 'BIRT',
           items: [
             {
-              label: 'Doumentation',
+              label: 'Documentation',
               to: 'docs/t_brief-editor-tour',
             },
             {
