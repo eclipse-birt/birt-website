@@ -80,7 +80,7 @@ export default function Home() {
           <p className="hero__subtitle">{siteConfig.tagline}
           </p>
           With BIRT you can create data visualizations, dashboards and reports <br/>that can be embedded into web applications and rich clients. Make information out of your data! <p></p>
-          <div className={styles.buttons} style="background: green">
+          <div className={styles.buttons} style="background-color: green; foreground-color: white;">
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
@@ -91,7 +91,7 @@ export default function Home() {
             </Link>
           </div>
             &nbsp
-          <div className={styles.buttons} style="background: orange">
+          <div className={styles.buttons} style="background-color: red; foreground-color: white;">
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
