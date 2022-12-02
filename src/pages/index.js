@@ -80,7 +80,7 @@ export default function Home() {
           <p className="hero__subtitle">{siteConfig.tagline}
           </p>
           With BIRT you can create data visualizations, dashboards and reports <br/>that can be embedded into web applications and rich clients. Make information out of your data! <p></p>
-          <div className={styles.buttons}>
+          <div className={styles.buttons} style="background: green">
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
@@ -89,7 +89,9 @@ export default function Home() {
               to={useBaseUrl('https://download.eclipse.org/birt')}>
               Downloads
             </Link>
-
+          </div>
+            &nbsp
+          <div className={styles.buttons} style="background: orange">
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
