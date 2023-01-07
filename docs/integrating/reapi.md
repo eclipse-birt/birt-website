@@ -150,7 +150,7 @@ Change engine log level (OFF, SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST
 BIRT report designs are stored as XML files. By default the extension is rptdesign.
 To work with the report design in the engine, you must first load the report using one of the openDesign( ) methods in the ReportEngine class.
 
-The report design open methods return a IReportRunnable instance that represents the engine's view of the report design.
+The report design open methods returns a IReportRunnable instance that represents the engine's view of the report design.
 
 		IReportRunnable report = engine.openReportDesign( name );
 					
