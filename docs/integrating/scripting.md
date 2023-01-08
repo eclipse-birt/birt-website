@@ -1,12 +1,12 @@
 ---
-id: scripting
+id: Scripting
 title: Scripting
 sidebar_label: Scripting
 ---
 
 ### Background
 
-BIRT provides a rich scripting model based on the Mozilla Rhino engine. The processes that the Report engine uses to create reports can be classified in two phases, Report Generation and Presentation. The Generation phase consumes the report design and creates an intermediate file, called the report document. The Presentation phase uses the report document to render to HTML or PDF. The report creation pipeline can execute these phases as one task or in two task. If executed in one phase the report document is created in memory. This is the default behavior of the designer when "Preview as HTML" is chosen. If executed in two phases the report document is created and stored to disk. This is the default behavior of the designer when "Preview in Web Viewer" is selected.
+BIRT provides a rich scripting model based on the Mozilla Rhino engine. The processes that the Report engine uses to create reports can be classified in two phases, Report Generation and Presentation. The Generation phase consumes the report design and creates an intermediate file, called the report document. The Presentation phase uses the report document to render to HTML or PDF. The report creation pipeline can execute these phases as one task or in two tasks. If executed in one phase the report document is created in memory. This is the default behavior of the designer when "Preview as HTML" is chosen. If executed in two phases the report document is created and stored to disk. This is the default behavior of the designer when "Preview in Web Viewer" is selected.
 
 Events within each phase can be overridden, by creating event handlers, to alter report content. BIRT allows these event handlers to be written in either JavaScript or Java. If you code your event handler in both Java and JavaScript the JavaScript version will be executed by default.
 
@@ -375,7 +375,7 @@ To illustrate a Scripted Data Set, assume that you have an external Java Object 
 
 BIRT event handlers can be written in Java. This section will describe setting up a Birt Events Java project, assigning the event handlers to elements and finally debugging the report.
 
-When writing Java event handlers remember that a new event handler instance will be created for each invocation. The implication of this is that you can not use class data memeber to pass information between methods. For example, if you want to pass information from "onPrepare()" to "onCreate()", you need to use the reportContext to hold the shared information.
+When writing Java event handlers remember that a new event handler instance will be created for each invocation. The implication of this is that you can not use class data member to pass information between methods. For example, if you want to pass information from "onPrepare()" to "onCreate()", you need to use the reportContext to hold the shared information.
 
 #### Setting up the Java Project
 
