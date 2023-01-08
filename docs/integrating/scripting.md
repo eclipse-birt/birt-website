@@ -1,5 +1,5 @@
 ---
-id: Scripting
+id: scripting
 title: Scripting
 sidebar_label: Scripting
 ---
