@@ -99,7 +99,7 @@ Other functions of interest within this class are:
     This call sets the Log directory name and level (OFF, SEVERE, WARNING, INFO, CONFIG, FINE, FINER, FINEST and ALL)
     Setting directoryName to null will log to stdout.
 
-### Rep ortEngine
+### ReportEngine
 
 The ReportEngine class represents the BIRT Report Engine. There is a significant cost associated with creating an engine instance, due primarily to the cost of loading extensions. Therefore, each application should create just one ReportEngine instance and use it to run multiple reports. This is important to remember when deploying the engine in a servlet as well.
 
