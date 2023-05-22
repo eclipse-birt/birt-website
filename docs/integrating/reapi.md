@@ -43,7 +43,7 @@ The BIRT Viewer sample is also bundled with the Report Engine download. It is lo
 
 ### Engine Source
 
-If you prefer to work directly with the BIRT source code, the Engine API is in the _org.eclipse.birt.report.engine_ project within [our Git repository](https://github.com/eclipse/birt/tree/master/engine/org.eclipse.birt.report.engine). The source is also available from the BIRT site in one package (the BIRT Source Code Package), which can be downloaded from the [BIRT download site](http://download.eclipse.org/birt/downloads).
+If you prefer to work directly with the BIRT source code, the Engine API is in the _org.eclipse.birt.report.engine_ project within [our Git repository](https://github.com/eclipse-birt/birt/tree/master/engine/org.eclipse.birt.report.engine). The source is also available from the BIRT site in one package (the BIRT Source Code Package), which can be downloaded from the [BIRT download site](http://download.eclipse.org/birt/downloads).
 
 ### Javadoc
 
@@ -549,4 +549,4 @@ Setting the Image Directory instructs the RE API to store images, used within th
 
 You can also create your own implementation of _IHTMLImageHandler_ if the above don't meet your needs.
 
-If your code is going to be run in a servlet, please review the [ReportEngineService.java](https://github.com/eclipse/birt/tree/master/viewer/org.eclipse.birt.report.viewer/birt/WEB-INF/classes/org/eclipse/birt/report/service) code in Git. The BIRT Viewer uses this class to configure the engine. The constructor for the _ReportEngineService_ uses the _HTMLServerImageHandler_ class, which in turn reads Image locations from the web.xml file.
+If your code is going to be run in a servlet, please review the [ReportEngineService.java](https://github.com/eclipse-birt/birt/tree/master/viewer/org.eclipse.birt.report.viewer/birt/WEB-INF/classes/org/eclipse/birt/report/service) code in Git. The BIRT Viewer uses this class to configure the engine. The constructor for the _ReportEngineService_ uses the _HTMLServerImageHandler_ class, which in turn reads Image locations from the web.xml file.

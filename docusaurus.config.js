@@ -116,11 +116,11 @@ module.exports = {
 ///            },
             {
               label: 'GitHub BIRT',
-              href: 'https://github.com/eclipse/birt',
+              href: 'https://github.com/eclipse-birt/birt',
             },
             {
               label: 'GitHub BIRT website',
-              href: 'https://github.com/eclipse/birt-website',
+              href: 'https://github.com/eclipse-birt/birt-website',
             },
           ],
         },
@@ -136,7 +136,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/eclipse/birt-website/tree/main/'
+            'https://github.com/eclipse-birt/birt-website/tree/main/'
         },
         blog: {
           showReadingTime: true,

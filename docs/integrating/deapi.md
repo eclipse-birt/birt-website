@@ -44,7 +44,7 @@ The BIRT Design Engine API (DEAPI) provides a number of services to applications
 
 ### DEAPI SDK
 
-To create an application that uses the DEAPI, you'll need the design engine SDK which can be downloaded from the BIRT downloads pages. Information is [on the main README](https://github.com/eclipse/birt/blob/master/README.md).
+To create an application that uses the DEAPI, you'll need the design engine SDK which can be downloaded from the BIRT downloads pages. Information is [on the main README](https://github.com/eclipse-birt/birt/blob/master/README.md).
 
 This API is described in Javadoc in the org.eclipse.birt.report.model.api package within the org.eclipse.birt.report.model project. Read the package overview for general information about getting started with this API.
 
