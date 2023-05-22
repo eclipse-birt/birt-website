@@ -25,4 +25,4 @@ Note that the BIRT Viewer requires that cookies be enabled.
 
 [Viewer Tag Library](integrating/viewer-usage.md) discusses how to integrate BIRT using the Tag Libraries.
 
-The viewer code is available in the BIRT source repository in the [org.eclipse.birt.report.viewer](https://github.com/eclipse/birt/tree/master/viewer/org.eclipse.birt.report.viewer) project. See the [BIRT build instructions](https://github.com/eclipse/birt/blob/master/README.md) for information on how to access the sources and build the viewer.
+The viewer code is available in the BIRT source repository in the [org.eclipse.birt.report.viewer](https://github.com/eclipse-birt/birt/tree/master/viewer/org.eclipse.birt.report.viewer) project. See the [BIRT build instructions](https://github.com/eclipse-birt/birt/blob/master/README.md) for information on how to access the sources and build the viewer.
