@@ -86,7 +86,7 @@ export default function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('https://download.eclipse.org/birt')}>
+              to={useBaseUrl('https://download.eclipse.org/birt/updates/release/latest')}>
               Downloads
             </Link>
             &nbsp;
