@@ -11,7 +11,7 @@ When you find a bug in BIRT, you may want to look at the source to see if you ca
 
 Beside the above argument, contributing to BIRT can be a rewarding way to learn, teach, and build experience in just about any skill. 
 
-If you’re a new open source contributor, the process may be intimidating. Win Jongman has with the help of Ed Merks created a video that explains the full cycle of contributing to the BIRT project. Watch it, you will see how easy it is to integrate the BIRT family.
+If you’re a new open source contributor, the process may be intimidating. Wim Jongman has with the help of Ed Merks created a video that explains the full cycle of contributing to the BIRT project. Watch it, you will see how easy it is to integrate the BIRT family.
 
 ### Have fun watching the video !
  
