@@ -18,8 +18,7 @@ In these tutorials, you'll create a simple customer listing report, with the cus
 
 The following videos walks you though the steps to build a basic listing report and introduces the basic BIRT concepts. This is right the place to start. 
 
-+ Watch [tutorial 1](//www.youtube.com/watch?v=6TRndgUMUmU)
-+ Watch [tutorial 2](//www.youtube.com/watch?v=Kdr_LeHjIH8)
++ Watch [Getting Started](https://www.youtube.com/watch?v=WaRNFVlSMo0)
 
 ## Templates and Examples
 
