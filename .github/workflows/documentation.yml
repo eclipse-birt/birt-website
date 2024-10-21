@@ -35,7 +35,7 @@ jobs:
 
       # Archive the result
       - name: Archive production artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: website
           path: |
