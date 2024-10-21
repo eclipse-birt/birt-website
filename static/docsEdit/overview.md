@@ -116,7 +116,7 @@ The topics in this guide include:
 ## Building BIRT
 
 This guide describes how to get the BIRT source and build it
-under Eclipse. If you simply want to use BIRT, it is easier to simply [download](http://download.eclipse.org/birt/downloads) an existing build. The topics included are:
+under Eclipse. If you simply want to use BIRT, it is easier to simply [download](https://download.eclipse.org/birt/updates/release/latest/) an existing build. The topics included are:
 
 *   Introduction
 

@@ -95,7 +95,7 @@ favorites = null;]]></method>
                         <property name="borderTopColor">#808080</property>
                         <property name="borderTopStyle">solid</property>
                         <property name="borderTopWidth">thin</property>
-                        <expression name="uri">http://download.eclipse.org/birt/downloads/examples/images/ClassicLogo.jpg</expression>
+                        <expression name="uri">https://download.eclipse.org/birt/updates/release/latest//examples/images/ClassicLogo.jpg</expression>
                     </image>
                 </cell>
                 <cell>

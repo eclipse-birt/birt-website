@@ -26,7 +26,7 @@ The report engine supports extensions for custom report items, data access, and 
 
 The first step is to download, install, and configure the BIRT engine. The engine is more than just a simple JAR file; it also includes a set of extensions (plug-ins), and a set of data drivers.
 
-*    First download the Report Engine from the [BIRT download site](http://download.eclipse.org/birt/downloads).
+*    First download the Report Engine from the [BIRT download site](https://download.eclipse.org/birt/updates/release/latest/).
 
 *    This file will be named birt-runtime-version.zip.
 
@@ -43,7 +43,7 @@ The BIRT Viewer sample is also bundled with the Report Engine download. It is lo
 
 ### Engine Source
 
-If you prefer to work directly with the BIRT source code, the Engine API is in the _org.eclipse.birt.report.engine_ project within [our Git repository](https://github.com/eclipse-birt/birt/tree/master/engine/org.eclipse.birt.report.engine). The source is also available from the BIRT site in one package (the BIRT Source Code Package), which can be downloaded from the [BIRT download site](http://download.eclipse.org/birt/downloads).
+If you prefer to work directly with the BIRT source code, the Engine API is in the _org.eclipse.birt.report.engine_ project within [our Git repository](https://github.com/eclipse-birt/birt/tree/master/engine/org.eclipse.birt.report.engine). The source is also available from the BIRT site in one package (the BIRT Source Code Package), which can be downloaded from the [BIRT download site](https://download.eclipse.org/birt/updates/release/latest/).
 
 ### Javadoc
 
