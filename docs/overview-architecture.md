@@ -1,6 +1,6 @@
 ---
 id: overview-architecture
-title: Archticture
+title: Architecture
 sidebar_label: Architecture
 ---
 
