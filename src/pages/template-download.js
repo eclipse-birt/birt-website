@@ -52,7 +52,7 @@ function Hello() {
           <div class="alert alert--primary" role="alert">
             <center>
               <button class="button button--lg button--primary">
-                <a href="/static/templates/BIRT-templates-download_V4.9.zip" download>Click to Download Templates and Examples</a>
+                <a href="https://github.com/eclipse-birt/birt/tree/master/UI/org.eclipse.birt.report.designer.samplereports/samplereports/Reporting%20Feature%20Examples" download>Click to Download Templates and Examples</a>
               </button> 
             </center>
           </div>
