@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkbirt_website=globalThis.webpackChunkbirt_website||[]).push([[7215],{7137(e){e.exports=JSON.parse('{"allTagsPath":"/birt-website/blog/tags","slug":"/birt-website/blog/tags/os-bee","name":"OS.bee","count":1,"permalink":"/birt-website/blog/tags/os-bee"}')}}]);
