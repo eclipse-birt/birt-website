@@ -108,36 +108,37 @@ RegistryProviderFactory.releaseDefault();
 
 This should be added after the Platform.shutdown() method is called. You will need to import the org.eclipse.core.internal.registry.RegistryProviderFactory package. See [Bugzilla 351052](https://bugs.eclipse.org/bugs/show_bug.cgi?id=351052) for more details.
 
-	try{
+```java
+try{
 	final config = new EngineConfig( );
-		//delete the following line if using BIRT 3.7 (or later) POJO runtime
-		//As of 3.7.2, BIRT now provides an OSGi and a POJO Runtime.
-	
-		config.setEngineHome( "C:\\birt-runtime-2_6_2\\birt-runtime-2_6_2\\ReportEngine" );
-		config.setLogConfig(c:/temp, Level.FINE);
-	
-		Platform.startup( config );
-		//If using RE API in Eclipse/RCP application this is not needed.
-		IReportEngineFactory factory = (IReportEngineFactory) Platform
-				.createFactoryObject( IReportEngineFactory.EXTENSION_REPORT_ENGINE_FACTORY );
-		IReportEngine engine = factory.createReportEngine( config );
-		engine.changeLogLevel( Level.WARNING );
-	}catch( Exception ex){
-		ex.printStackTrace();
-	}
-	// Run reports, etc.
-	...
-	
-	// destroy the engine.
-	try
-	{
-		engine.destroy();
-		Platform.shutdown();
-		//Bugzilla 351052
-		RegistryProviderFactory.releaseDefault();
-	}catch ( EngineException e1 ){
-	    // Ignore
-	}
+	//delete the following line if using BIRT 3.7 (or later) POJO runtime
+	//As of 3.7.2, BIRT now provides an OSGi and a POJO Runtime.
+
+	config.setEngineHome( "C:\\birt-runtime-2_6_2\\birt-runtime-2_6_2\\ReportEngine" );
+	config.setLogConfig("c:/temp", Level.FINE);
+
+	Platform.startup( config );
+	//If using RE API in Eclipse/RCP application this is not needed.
+	IReportEngineFactory factory = (IReportEngineFactory) Platform
+			.createFactoryObject( IReportEngineFactory.EXTENSION_REPORT_ENGINE_FACTORY );
+	IReportEngine engine = factory.createReportEngine( config );
+	engine.changeLogLevel( Level.WARNING );
+}catch( Exception ex){
+	ex.printStackTrace();
+}
+// Run reports, etc.
+...
+
+// destroy the engine.
+try {
+	engine.destroy();
+	Platform.shutdown();
+	//Bugzilla 351052
+	RegistryProviderFactory.releaseDefault();
+} catch ( EngineException e1 ) {
+	// Ignore
+}
+```
 
 Other functions of interest within this class are:
 
@@ -167,19 +168,21 @@ The Engine's openDocument method returns a IReportDocument that represents the i
 
 The example below illustrates getting the TOC from the report document, after the runTask is used to generate the report.
 
-	IReportDocument ird = engine.openReportDocument("c:/work/test/TOCTest.rptdocument");
-	//get root node
-	TOCNode td = ird.findTOC(null);
-	List children = td.getChildren( );
-	//Loop through Top Level Children
-	if ( children != null && children.size( ) > 0 ){
-		for ( int i = 0; i < children.size( ); i++ ){
-			TOCNode child = ( TOCNode ) children.get( i );
-			System.out.println( "Node ID " + child.getNodeID());
-			System.out.println( "Node Display String " + child.getDisplayString());
-			System.out.println( "Node Bookmark " + child.getBookmark());
-		}
+```java
+IReportDocument ird = engine.openReportDocument("c:/work/test/TOCTest.rptdocument");
+//get root node
+TOCNode td = ird.findTOC(null);
+List children = td.getChildren( );
+//Loop through Top Level Children
+if ( children != null && children.size( ) > 0 ){
+	for ( int i = 0; i < children.size( ); i++ ){
+		TOCNode child = ( TOCNode ) children.get( i );
+		System.out.println( "Node ID " + child.getNodeID());
+		System.out.println( "Node Display String " + child.getDisplayString());
+		System.out.println( "Node Bookmark " + child.getBookmark());
 	}
+}
+```
 					
 
 ### IEngineTask
@@ -205,59 +208,61 @@ Create tasks using the factory methods on the ReportEngine class. The supported 
 Use this task to extract data from a report document. The BIRT viewer uses this class to extract report data into CSV format. This class supports extracting data from the report document by specifying the result set and columns you would like to have extracted.
 From the Viewer code
 
-	dataTask.selectResultSet( resultSetName );
-	dataTask.selectColumns( columnNames );
-	dataTask.setLocale( locale );
-					
+```java
+dataTask.selectResultSet( resultSetName );
+dataTask.selectColumns( columnNames );
+dataTask.setLocale( locale );
+```
 
 Below is an example that uses the Data Extraction Task to extract the first two columns of data.
 
-	//Open previously created report document
-	IReportDocument iReportDocument = engine
-	     .openReportDocument("c:/work/test/TOCTest.rptdocument");
-	
-	//Create Data Extraction Task		
-	IDataExtractionTask iDataExtract = engine.createDataExtractionTask(iReportDocument);
-			
-	//Get list of result sets		
-	ArrayList resultSetList = (ArrayList)iDataExtract.getResultSetList( );
-					
-	//Choose first result set
-	IResultSetItem resultItem = (IResultSetItem)resultSetList.get( 0 );
-	String dispName = resultItem.getResultSetName( );
-	iDataExtract.selectResultSet( dispName );
-					
-	IExtractionResults iExtractResults = iDataExtract.extract();
-	IDataIterator iData = null;
-	try{
-		if ( iExtractResults != null ){
-			iData = iExtractResults.nextResultIterator( );
-			//iterate through the results
-			if ( iData != null  ){
-				while ( iData.next( ) ){	
-					Object objColumn1;
-				    Object objColumn2;
-					try{
-						objColumn1 = iData.getValue(0);
-					}catch(DataException e){
-						objColumn1 = new String("");
-					}
-					try{
-						objColumn2 = iData.getValue(1);
-					}catch(DataException e){
-						objColumn2 = new String("");
-					}
-					System.out.println( objColumn1 + " , " + objColumn2 );
-				}
-				iData.close();
-			}
-		}
-	}catch( Exception e){
-			e.printStackTrace();
-	}
-	
-	iDataExtract.close();
-					
+```java
+//Open previously created report document
+IReportDocument iReportDocument = engine
+     .openReportDocument("c:/work/test/TOCTest.rptdocument");
+
+//Create Data Extraction Task
+IDataExtractionTask iDataExtract = engine.createDataExtractionTask(iReportDocument);
+
+//Get list of result sets
+ArrayList resultSetList = (ArrayList)iDataExtract.getResultSetList( );
+
+//Choose first result set
+IResultSetItem resultItem = (IResultSetItem)resultSetList.get( 0 );
+String dispName = resultItem.getResultSetName( );
+iDataExtract.selectResultSet( dispName );
+
+IExtractionResults iExtractResults = iDataExtract.extract();
+IDataIterator iData = null;
+try{
+    if ( iExtractResults != null ){
+        iData = iExtractResults.nextResultIterator( );
+        //iterate through the results
+        if ( iData != null  ){
+            while ( iData.next( ) ){
+                Object objColumn1;
+                Object objColumn2;
+                try{
+                    objColumn1 = iData.getValue(0);
+                }catch(DataException e){
+                    objColumn1 = new String("");
+                }
+                try{
+                    objColumn2 = iData.getValue(1);
+                }catch(DataException e){
+                    objColumn2 = new String("");
+                }
+                System.out.println( objColumn1 + " , " + objColumn2 );
+            }
+            iData.close();
+        }
+    }
+}catch( Exception e){
+    e.printStackTrace();
+}
+
+iDataExtract.close();
+```
 
 ### IGetParameterDefinitionTask
 
@@ -267,60 +272,60 @@ The _IParameterGroupDefn_ and _IScalarParameterDefn_ interfaces provide informat
 
 The following example opens a report design and iterates through the parameters and parameter groups. If a List Box parameter is found, which is not in a group, the selection values are retrieved.
 
+```java
+// Open a report design
+IReportRunnable design = engine.openReportDesign("C:/work/test/parameters.rptdesign");
 
-	// Open a report design
-	IReportRunnable design = engine.openReportDesign("C:/work/test/parameters.rptdesign");
+IGetParameterDefinitionTask task = engine.createGetParameterDefinitionTask(design);
+Collection params = task.getParameterDefns(true);
 
-	IGetParameterDefinitionTask task = engine.createGetParameterDefinitionTask(design);
-	Collection params = task.getParameterDefns(true);
+Iterator iter = params.iterator( );
+// Iterate over all parameters
+while(iter.hasNext())
+{
+    IParameterDefnBase param = (IParameterDefnBase) iter.next();
+    // Group section found
+    if (param instanceof IParameterGroupDefn) {
+        // Get Group Name
+        IParameterGroupDefn group = (IParameterGroupDefn) param;
+        System.out.println("Parameter Group: " + group.getName());
+        // Get the parameters within a group
+        Iterator i2 = group.getContents().iterator();
+        while (i2.hasNext()) {
+            IScalarParameterDefn scalar = (IScalarParameterDefn) i2.next();
+            System.out.println("\t" + scalar.getName());
+        }
+    } else {
+        // Parameters are not in a group
+        IScalarParameterDefn scalar = (IScalarParameterDefn) param;
+        System.out.println(param.getName());
+        // Parameter is a List Box
+        if (scalar.getControlType() == IScalarParameterDefn.LIST_BOX) {
+            Collection selectionList = task.getSelectionList(param.getName());
+            // Selection contains data
+            if (selectionList != null) {
+                for (Iterator sliter = selectionList.iterator(); sliter.hasNext();) {
+                    // Print out the selection choices
+                    IParameterSelectionChoice selectionItem = (IParameterSelectionChoice) sliter.next();
+                    String value = (String) selectionItem.getValue();
+                    String label = selectionItem.getLabel();
+                    System.out.println(label + "--" + value);
+                }
+            }
+        }
+    }
+}
 
-	Iterator iter = params.iterator( );
-	// Iterate over all parameters
-	while(iter.hasNext())
-	{
-		IParameterDefnBase param = (IParameterDefnBase) iter.next();
-		// Group section found
-		if (param instanceof IParameterGroupDefn) {
-			// Get Group Name
-			IParameterGroupDefn group = (IParameterGroupDefn) param;
-			System.out.println("Parameter Group: " + group.getName());
-			// Get the parameters within a group
-			Iterator i2 = group.getContents().iterator();
-			while (i2.hasNext()) {
-				IScalarParameterDefn scalar = (IScalarParameterDefn) i2.next();
-				System.out.println("\t" + scalar.getName());
-			}
-		} else {
-			// Parameters are not in a group
-			IScalarParameterDefn scalar = (IScalarParameterDefn) param;
-			System.out.println(param.getName());
-			// Parameter is a List Box
-			if (scalar.getControlType() == IScalarParameterDefn.LIST_BOX) {
-				Collection selectionList = task.getSelectionList(param.getName());
-				// Selection contains data
-				if (selectionList != null) {
-					for (Iterator sliter = selectionList.iterator(); sliter.hasNext();) {
-						// Print out the selection choices
-						IParameterSelectionChoice selectionItem = (IParameterSelectionChoice) sliter.next();
-						String value = (String) selectionItem.getValue();
-						String label = selectionItem.getLabel();
-						System.out.println(label + "--" + value);
-					}
-				}
-			}
-		}
-	}
-
-	task.close();
-					
+task.close();
+```
 
 Use the _IGetParameterDefinitionTask_ class to evaluate the default value for a parameter. The parameter default value is an expression, and the task provides the required execution context.
 
-
-	IScalarParameterDefn param = ...;
-	IGetParameterDefinitionTask task = ...;
-	Object value = task.getDefaultValue(param);
-    
+```java
+IScalarParameterDefn param = ...;
+IGetParameterDefinitionTask task = ...;
+Object value = task.getDefaultValue(param);
+```
 
 ### IRenderTask
 

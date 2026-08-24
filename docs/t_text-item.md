@@ -73,9 +73,11 @@ Let's create our text item. To do this:
 
 While we won't use it in this tutorial, there is one other feature of Text Elements to note. Select the Dynamic Text category and you'll see a tag. This allows you to insert expressions directly into your HTML. For example, to display an address line in US format, we could type:
 
-    <value-of>row["city"]</value-of>,
-    <value-of>row["state"]</value-of>
-    <value-of format="@@@@@-@@@@">row["zip"]<value-of> 
+```xml
+<value-of>row["city"]</value-of>,
+<value-of>row["state"]</value-of>
+<value-of format="@@@@@-@@@@">row["zip"]</value-of>
+```
 
 The row values correspond to the name column within the Binding Editor for the given report container element. So for example if we added a Text Element to our Table, we could use row["CUSTOMERNAME"] within the value-of tag.
 

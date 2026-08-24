@@ -9,7 +9,12 @@ module.exports = {
   url: 'https://eclipse.github.io/',
   baseUrl: '/birt-website/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    format: 'md',
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   favicon: 'img/BIRT-Icon.ico/',
   organizationName: 'eclipse', // Usually your GitHub org/user name.
   projectName: 'birt-website', // Usually your repo name. birt-website
@@ -41,8 +46,8 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/integrating/integrating',
-          activeBasePath: 'docs/integrating/integrating',
+          to: 'docs/integrating',
+          activeBasePath: 'docs/integrating',
           label: 'Integrating',
           position: 'left',
         },        
@@ -142,7 +147,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            '/birt-website/',
+            'https://github.com/eclipse-birt/birt-website/tree/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
