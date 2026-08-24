@@ -64,7 +64,7 @@ Let's click the preview tab to see how our report looks after the formatting. No
 
 *   Ensure that the URL radio button is selected.
 
-*   Enter the following URL: "http://www.eclipse.org/birt/resources/documentation/tutorial/multichip-4.jpg". (don't forget to add the quotes.)
+*   Enter the following URL: "http://www.eclipse.org/birt/phoenix/tutorial/basic/multichip-4.jpg". (don't forget to add the quotes.)
 
 *   Click the Preview button to ensure that the URL is correct.
 
