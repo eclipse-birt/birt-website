@@ -99,15 +99,7 @@ The web.xml file contains many settings used to configure the Viewer. These sett
       <p>BIRT_VIEWER_LOG_LEVEL</p>
     </td>
     <td>
-      <p>Sets the report engine log level. Valid values are:<br />
-        OFF<br />
-        SEVERE<br />
-        WARNING<br />
-        INFO<br />
-        CONFIG<br />
-        FINE<br />
-        FINER<br />
-        FINEST</p>
+      <p>Sets the report engine log level. Valid values are:<br /> OFF<br /> SEVERE<br /> WARNING<br /> INFO<br /> CONFIG<br /> FINE<br /> FINER<br /> FINEST</p>
     </td>
   </tr>
   <tr>
@@ -397,25 +389,27 @@ The Viewer tag library contains five tags param, paramDef, parameterPage, report
 
 Example JSP
 
-     <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-					pageEncoding="ISO-8859-1"%>
-					<%@ taglib uri="/birt.tld" prefix="birt" %>
-					<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-					   "http://www.w3.org/TR/html4/loose.dtd">
-					<html>
-					<head>
-					<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-					<title>Insert title here</title>
-					</head>
-					<body>
-					<birt:viewer id="birtViewer" reportDesign="TopNPercent.rptdesign"
-					pattern="frameset"
-					height="450"
-					width="700"
-					format="html">
-					</birt:viewer>
-					</body>
-					</html>
+```jsp
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="/birt.tld" prefix="birt" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<birt:viewer id="birtViewer" reportDesign="TopNPercent.rptdesign"
+    pattern="frameset"
+    height="450"
+    width="700"
+    format="html">
+</birt:viewer>
+</body>
+</html>
+```
 
 ### The viewer Tag Attributes
 
@@ -682,40 +676,23 @@ Example JSP
       <p>id</p>
     </td>
     <td>
-      <p>A
-        unique identifier for the viewer.</p>
+      <p>A unique identifier for the viewer.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        baseURL
-      </p>
+      <p>baseURL</p>
     </td>
     <td>
-      <p>The
-        baseURL is used to determine the location of the
-        Viewer application. If the tags are
-        used in the same context as the BIRT viewer this attribute is not
-        required. If the tag library is used
-        in a separate context but in the same application server, this setting may
-        contain a value such as baseURL="/
-        WebViewerExample".
-        The reportContainer attribute must be set to
-        iframe if this attribute is used.</p>
+      <p>The baseURL is used to determine the location of the Viewer application. If the tags are used in the same context as the BIRT viewer this attribute is not required. If the tag library is used in a separate context but in the same application server, this setting may contain a value such as baseURL="/ WebViewerExample". The reportContainer attribute must be set to iframe if this attribute is used.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        isHostPage
-      </p>
+      <p>isHostPage</p>
     </td>
     <td>
-      <p>If
-        this value is set to true the viewer tag will occupy the entire page.
-        The default value is false, which allows
-        multiple reports to be contained in one JSP Page.</p>
+      <p>If this value is set to true the viewer tag will occupy the entire page. The default value is false, which allows multiple reports to be contained in one JSP Page.</p>
     </td>
   </tr>
   <tr>
@@ -723,11 +700,7 @@ Example JSP
       <p>scrolling</p>
     </td>
     <td>
-      <p>Sets
-        the DIV/IFRAME scrolling style attribute.
-        Valid values are auto, yes, and no.
-        If isHostPage is true these values are
-        ignored.</p>
+      <p>Sets the DIV/IFRAME scrolling style attribute. Valid values are auto, yes, and no. If isHostPage is true these values are ignored.</p>
     </td>
   </tr>
   <tr>
@@ -735,11 +708,7 @@ Example JSP
       <p>position</p>
     </td>
     <td>
-      <p>Sets
-        the DIV/IFRAME position style attribute.
-        Valid values are static, absolute, relative and fixed.
-        If isHostPage is
-        true these values are ignored.</p>
+      <p>Sets the DIV/IFRAME position style attribute. Valid values are static, absolute, relative and fixed. If isHostPage is true these values are ignored.</p>
     </td>
   </tr>
   <tr>
@@ -747,9 +716,7 @@ Example JSP
       <p>style</p>
     </td>
     <td>
-      <p>Sets
-        the style for the report container. If isHostPage
-        is true this value is ignored.</p>
+      <p>Sets the style for the report container. If isHostPage is true this value is ignored.</p>
     </td>
   </tr>
   <tr>
@@ -757,9 +724,7 @@ Example JSP
       <p>height</p>
     </td>
     <td>
-      <p>Sets
-        the Height of the IFRAME in pixels. If isHostPage
-        is true this value is ignored.</p>
+      <p>Sets the Height of the IFRAME in pixels. If isHostPage is true this value is ignored.</p>
     </td>
   </tr>
   <tr>
@@ -767,9 +732,7 @@ Example JSP
       <p>width</p>
     </td>
     <td>
-      <p>Sets
-        the Width of the IFRAME in pixels. If isHostPage is
-        true this value is ignored.</p>
+      <p>Sets the Width of the IFRAME in pixels. If isHostPage is true this value is ignored.</p>
     </td>
   </tr>
   <tr>
@@ -777,9 +740,7 @@ Example JSP
       <p>top</p>
     </td>
     <td>
-      <p>Sets
-        the top of the IFRAME in pixels. If isHostPage is
-        true this value is ignored.</p>
+      <p>Sets the top of the IFRAME in pixels. If isHostPage is true this value is ignored.</p>
     </td>
   </tr>
   <tr>
@@ -787,66 +748,39 @@ Example JSP
       <p>left</p>
     </td>
     <td>
-      <p>Sets
-        the left of the IFRAME in pixels. If isHostPage is
-        true this value is ignored.</p>
+      <p>Sets the left of the IFRAME in pixels. If isHostPage is true this value is ignored.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        frameborder
-      </p>
+      <p>frameborder</p>
     </td>
     <td>
-      <p>Specifies
-        whether or not to display a border around the IFRAME.
-        Valid values are yes or
-        no. If isHostPage
-        is true this value is ignored.
-        reportContainer must be set to
-        iframe.</p>
+      <p>Specifies whether or not to display a border around the IFRAME. Valid values are yes or no. If isHostPage is true this value is ignored. reportContainer must be set to iframe.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        reportDesign
-      </p>
+      <p>reportDesign</p>
     </td>
     <td>
-      <p>Specifies
-        the name of the report design file.
-        This setting can be relative or set to a full path, or a URL.</p>
+      <p>Specifies the name of the report design file. This setting can be relative or set to a full path, or a URL.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        reportDocument
-      </p>
+      <p>reportDocument</p>
     </td>
     <td>
-      <p>Sets
-        the name of the report document file.
-        This setting can be relative or set to a full path, or a URL.
-        If using a URL it must be a file URL.
-        File://.
-        Note that a report document will not be created, but if the
-        reportDocument exist it will be rendered.</p>
+      <p>Sets the name of the report document file. This setting can be relative or set to a full path, or a URL. If using a URL it must be a file URL. File://. Note that a report document will not be created, but if the reportDocument exist it will be rendered.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        reportletId
-      </p>
+      <p>reportletId</p>
     </td>
     <td>
-      <p>Specifies
-        the instance id of the portion of the report to be displayed.
-        Note this only works with the run pattern
-        and a reportDocument setting.</p>
+      <p>Specifies the instance id of the portion of the report to be displayed. Note this only works with the run pattern and a reportDocument setting.</p>
     </td>
   </tr>
   <tr>
@@ -854,13 +788,7 @@ Example JSP
       <p>bookmark</p>
     </td>
     <td>
-      <p>Specifies
-        which bookmark to load within the report.
-        For example, adding a table of contents and specifying the TOC </p>
-      <p>
-        entry
-        will load the page containing that
-        entry.</p>
+      <p>Specifies which bookmark to load within the report. For example, adding a table of contents and specifying the TOC entry will load the page containing that entry.</p>
     </td>
   </tr>
   <tr>
@@ -868,19 +796,15 @@ Example JSP
       <p>locale</p>
     </td>
     <td>
-      <p>Specifies
-        the locale for the report.</p>
+      <p>Specifies the locale for the report.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        svg
-      </p>
+      <p>svg</p>
     </td>
     <td>
-      <p>Specifies
-        where SVG for charts is supported.</p>
+      <p>Specifies where SVG for charts is supported.</p>
     </td>
   </tr>
   <tr>
@@ -888,84 +812,55 @@ Example JSP
       <p>format</p>
     </td>
     <td>
-      <p>Specifies
-        the output format, such as pdf, html, or
-        xls.</p>
+      <p>Specifies the output format, such as pdf, html, or xls.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        rtl
-      </p>
+      <p>rtl</p>
     </td>
     <td>
-      <p>Sets
-        the right to left flag. By default
-        this is false.</p>
+      <p>Sets the right to left flag. By default this is false.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        pageNum
-      </p>
+      <p>pageNum</p>
     </td>
     <td>
-      <p>Displays
-        a specific page within the report.
-        Report document must already exist.</p>
+      <p>Displays a specific page within the report. Report document must already exist.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        pageRange
-      </p>
+      <p>pageRange</p>
     </td>
     <td>
-      <p>Displays
-        a specific page range within the report.
-        For example 2-5, 12. Report
-        Document must already exist.</p>
+      <p>Displays a specific page range within the report. For example 2-5, 12. Report Document must already exist.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        resourceFolder
-      </p>
+      <p>resourceFolder</p>
     </td>
     <td>
-      <p>Specifies
-        the resource folder, which contains libraries and images.
-        This is usually specified in the
-        Web.xml, but this parameter will override that value.</p>
+      <p>Specifies the resource folder, which contains libraries and images. This is usually specified in the Web.xml, but this parameter will override that value.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        showParameterPage
-      </p>
+      <p>showParameterPage</p>
     </td>
     <td>
-      <p>When
-        using the report tag, this setting determines if the parameter page is
-        displayed. If reportContainer
-        is set to div, this setting is ignored and the parameter page is not displayed.</p>
+      <p>When using the report tag, this setting determines if the parameter page is displayed. If reportContainer is set to div, this setting is ignored and the parameter page is not displayed.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        reportContainer
-      </p>
+      <p>reportContainer</p>
     </td>
     <td>
-      <p>Specifies
-        if the report is rendered in an IFRAME or a DIV element.
-        This attribute affects other attributes.</p>
+      <p>Specifies if the report is rendered in an IFRAME or a DIV element. This attribute affects other attributes.</p>
     </td>
   </tr>
 </table>
@@ -985,8 +880,7 @@ Example JSP
       <p>id</p>
     </td>
     <td>
-      <p>A
-        unique identifier for the viewer.</p>
+      <p>A unique identifier for the viewer.</p>
     </td>
   </tr>
   <tr>
@@ -994,9 +888,7 @@ Example JSP
       <p>name</p>
     </td>
     <td>
-      <p>Specifies
-        the report parameter name. This must
-        match the design file.</p>
+      <p>Specifies the report parameter name. This must match the design file.</p>
     </td>
   </tr>
   <tr>
@@ -1004,21 +896,15 @@ Example JSP
       <p>pattern</p>
     </td>
     <td>
-      <p>Specifies the report parameter pattern format. If
-        isLocale is false, this value is ignored.
-      </p>
+      <p>Specifies the report parameter pattern format. If isLocale is false, this value is ignored.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        isLocale
-      </p>
+      <p>isLocale</p>
     </td>
     <td>
-      <p>Specifies
-        whether the report parameter value is a locale/format related string.
-        Valid values are true or false.</p>
+      <p>Specifies whether the report parameter value is a locale/format related string. Valid values are true or false.</p>
     </td>
   </tr>
   <tr>
@@ -1026,20 +912,15 @@ Example JSP
       <p>value</p>
     </td>
     <td>
-      <p>Sets
-        the value for the report parameter. If
-        this is left blank the default value for the parameter is used.</p>
+      <p>Sets the value for the report parameter. If this is left blank the default value for the parameter is used.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        displaytext
-      </p>
+      <p>displaytext</p>
     </td>
     <td>
-      <p>Set
-        the display text for the parameter.</p>
+      <p>Set the display text for the parameter.</p>
     </td>
   </tr>
 </table>
@@ -1059,8 +940,7 @@ Example JSP
       <p>id</p>
     </td>
     <td>
-      <p>A
-        unique identifier for the viewer.</p>
+      <p>A unique identifier for the viewer.</p>
     </td>
   </tr>
   <tr>
@@ -1068,22 +948,15 @@ Example JSP
       <p>name</p>
     </td>
     <td>
-      <p>Specifies
-        the report parameter page name. This
-        attribute is used to create a form and is required if using the
-        isCustom attribute. This attribute must be unique.</p>
+      <p>Specifies the report parameter page name. This attribute is used to create a form and is required if using the isCustom attribute. This attribute must be unique.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        isCustom
-      </p>
+      <p>isCustom</p>
     </td>
     <td>
-      <p>Indicates
-        whether the default BIRT parameter page is used or a custom page.
-        Valid values are true and false.</p>
+      <p>Indicates whether the default BIRT parameter page is used or a custom page. Valid values are true and false.</p>
     </td>
   </tr>
   <tr>
@@ -1091,27 +964,15 @@ Example JSP
       <p>pattern</p>
     </td>
     <td>
-      <p>The
-        parameterPage tag supports run, frameset, and
-        preview mappings. Frameset is used by
-        default.</p>
+      <p>The parameterPage tag supports run, frameset, and preview mappings. Frameset is used by default.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        baseURL
-      </p>
+      <p>baseURL</p>
     </td>
     <td>
-      <p>The
-        baseURL is used to determine the location of the
-        Viewer application. If the tags are
-        used in the same context as the BIRT viewer this attribute is not
-        required. If the tag library is used
-        in a separate context but in the same application server, this setting may
-        contain a value such as baseURL="/
-        WebViewerExample".</p>
+      <p>The baseURL is used to determine the location of the Viewer application. If the tags are used in the same context as the BIRT viewer this attribute is not required. If the tag library is used in a separate context but in the same application server, this setting may contain a value such as baseURL="/ WebViewerExample".</p>
     </td>
   </tr>
   <tr>
@@ -1119,9 +980,7 @@ Example JSP
       <p>target</p>
     </td>
     <td>
-      <p>Specifies
-        the target window for the form submit.
-        For example: _blank or parent</p>
+      <p>Specifies the target window for the form submit. For example: _blank or parent</p>
     </td>
   </tr>
   <tr>
@@ -1129,8 +988,7 @@ Example JSP
       <p>title</p>
     </td>
     <td>
-      <p>Sets
-        the title for the report container page.</p>
+      <p>Sets the title for the report container page.</p>
     </td>
   </tr>
   <tr>
@@ -1138,9 +996,7 @@ Example JSP
       <p>scrolling</p>
     </td>
     <td>
-      <p>Sets
-        the IFRAME scrolling style attribute.
-        Valid values are auto, yes, and no</p>
+      <p>Sets the IFRAME scrolling style attribute. Valid values are auto, yes, and no</p>
     </td>
   </tr>
   <tr>
@@ -1148,10 +1004,7 @@ Example JSP
       <p>position</p>
     </td>
     <td>
-      <p>Sets
-        the IFRAME position style attribute.
-        Valid values are static, absolute, relative and fixed.
-      </p>
+      <p>Sets the IFRAME position style attribute. Valid values are static, absolute, relative and fixed.</p>
     </td>
   </tr>
   <tr>
@@ -1159,8 +1012,7 @@ Example JSP
       <p>style</p>
     </td>
     <td>
-      <p>Sets
-        the style for the report container</p>
+      <p>Sets the style for the report container</p>
     </td>
   </tr>
   <tr>
@@ -1168,8 +1020,7 @@ Example JSP
       <p>height</p>
     </td>
     <td>
-      <p>Sets
-        the Height of the IFRAME in pixels. </p>
+      <p>Sets the Height of the IFRAME in pixels.</p>
     </td>
   </tr>
   <tr>
@@ -1177,8 +1028,7 @@ Example JSP
       <p>width</p>
     </td>
     <td>
-      <p>Sets
-        the Width of the IFRAME in pixels. </p>
+      <p>Sets the Width of the IFRAME in pixels.</p>
     </td>
   </tr>
   <tr>
@@ -1186,8 +1036,7 @@ Example JSP
       <p>top</p>
     </td>
     <td>
-      <p>Sets
-        the top of the IFRAME in pixels. </p>
+      <p>Sets the top of the IFRAME in pixels.</p>
     </td>
   </tr>
   <tr>
@@ -1195,61 +1044,39 @@ Example JSP
       <p>left</p>
     </td>
     <td>
-      <p>Sets
-        the left of the IFRAME in pixels. </p>
+      <p>Sets the left of the IFRAME in pixels.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        frameborder
-      </p>
+      <p>frameborder</p>
     </td>
     <td>
-      <p>Specifies
-        whether or not to display a border around the IFRAME.
-        Valid values are yes or
-        no. If isCustom
-        is true this value is ignored.</p>
+      <p>Specifies whether or not to display a border around the IFRAME. Valid values are yes or no. If isCustom is true this value is ignored.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        reportDesign
-      </p>
+      <p>reportDesign</p>
     </td>
     <td>
-      <p>Specifies
-        the name of the report design file.
-        This setting can be relative or set to a full path, or a URL.</p>
+      <p>Specifies the name of the report design file. This setting can be relative or set to a full path, or a URL.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        reportDocument
-      </p>
+      <p>reportDocument</p>
     </td>
     <td>
-      <p>Sets
-        the name of the report document file.
-        This setting can be relative or set to a full path, or a URL.
-        If using a URL it must be a file URL.
-        File://. </p>
+      <p>Sets the name of the report document file. This setting can be relative or set to a full path, or a URL. If using a URL it must be a file URL. File://.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        reportletId
-      </p>
+      <p>reportletId</p>
     </td>
     <td>
-      <p>Specifies
-        the instance id of the portion of the report to be displayed.
-        Note this only works with the run pattern
-        and a reportDocument setting.</p>
+      <p>Specifies the instance id of the portion of the report to be displayed. Note this only works with the run pattern and a reportDocument setting.</p>
     </td>
   </tr>
   <tr>
@@ -1257,13 +1084,8 @@ Example JSP
       <p>bookmark</p>
     </td>
     <td>
-      <p>Specifies
-        which bookmark to load within the report.
-        For example, adding a table of contents and specifying the TOC </p>
-      <p>
-        entry
-        will load the page containing that
-        entry.</p>
+      <p>Specifies which bookmark to load within the report. For example, adding a table of contents and specifying the TOC</p>
+      <p>entry will load the page containing that entry.</p>
     </td>
   </tr>
   <tr>
@@ -1271,19 +1093,15 @@ Example JSP
       <p>locale</p>
     </td>
     <td>
-      <p>Specifies
-        the locale for the report.</p>
+      <p>Specifies the locale for the report.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        svg
-      </p>
+      <p>svg</p>
     </td>
     <td>
-      <p>Specifies
-        where SVG for charts is supported.</p>
+      <p>Specifies where SVG for charts is supported.</p>
     </td>
   </tr>
   <tr>
@@ -1291,82 +1109,55 @@ Example JSP
       <p>format</p>
     </td>
     <td>
-      <p>Specifies
-        the output format, such as pdf, html, or
-        xls.</p>
+      <p>Specifies the output format, such as pdf, html, or xls.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        rtl
-      </p>
+      <p>rtl</p>
     </td>
     <td>
-      <p>Sets
-        the right to left flag. By default
-        this is false.</p>
+      <p>Sets the right to left flag. By default this is false.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        resourceFolder
-      </p>
+      <p>resourceFolder</p>
     </td>
     <td>
-      <p>Specifies
-        the resource folder, which contains libraries and images.
-        This is usually specified in the
-        Web.xml, but this parameter will override that value.</p>
+      <p>Specifies the resource folder, which contains libraries and images. This is usually specified in the Web.xml, but this parameter will override that value.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        forceOverwriteDocument
-      </p>
+      <p>forceOverwriteDocument</p>
     </td>
     <td>
-      <p>Specifies
-        whether the report document that is created is overwritten.
-        Only valid with the frameset mapping.</p>
+      <p>Specifies whether the report document that is created is overwritten. Only valid with the frameset mapping.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        showToolBar
-      </p>
+      <p>showToolBar</p>
     </td>
     <td>
-      <p>When
-        using the Viewer tag with the frameset pattern, this setting determines if
-        the toolbar is displayed.</p>
+      <p>When using the Viewer tag with the frameset pattern, this setting determines if the toolbar is displayed.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        showNavigationBar
-      </p>
+      <p>showNavigationBar</p>
     </td>
     <td>
-      <p>When
-        using the Viewer tag with the frameset pattern, this setting determines if
-        the navigation bar is displayed.</p>
+      <p>When using the Viewer tag with the frameset pattern, this setting determines if the navigation bar is displayed.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        showTitle
-      </p>
+      <p>showTitle</p>
     </td>
     <td>
-      <p>When
-        using the Viewer tag with the frameset pattern, this setting determines if
-        the report title is displayed.</p>
+      <p>When using the Viewer tag with the frameset pattern, this setting determines if the report title is displayed.</p>
     </td>
   </tr>
 </table>
@@ -1379,8 +1170,7 @@ Example JSP
       <p>id</p>
     </td>
     <td>
-      <p>A
-        unique identifier for the parameter control.</p>
+      <p>A unique identifier for the parameter control.</p>
     </td>
   </tr>
   <tr>
@@ -1388,21 +1178,15 @@ Example JSP
       <p>name</p>
     </td>
     <td>
-      <p>Specifies
-        the report parameter name. This must
-        match the parameter name in the report.</p>
+      <p>Specifies the report parameter name. This must match the parameter name in the report.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        isCustom
-      </p>
+      <p>isCustom</p>
     </td>
     <td>
-      <p>Indicates
-        whether the default BIRT parameter page is used or a custom page.
-        Valid values are true and false.</p>
+      <p>Indicates whether the default BIRT parameter page is used or a custom page. Valid values are true and false.</p>
     </td>
   </tr>
   <tr>
@@ -1410,9 +1194,7 @@ Example JSP
       <p>pattern</p>
     </td>
     <td>
-      <p>Specifies the report parameter pattern format. If
-        isLocale is false, this value is ignored.
-      </p>
+      <p>Specifies the report parameter pattern format. If isLocale is false, this value is ignored.</p>
     </td>
   </tr>
   <tr>
@@ -1420,32 +1202,23 @@ Example JSP
       <p>value</p>
     </td>
     <td>
-      <p>Sets
-        the value for the report parameter. If
-        this is left blank the default value for the parameter is used.</p>
+      <p>Sets the value for the report parameter. If this is left blank the default value for the parameter is used.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        displaytext
-      </p>
+      <p>displaytext</p>
     </td>
     <td>
-      <p>Set
-        the display text for the parameter.</p>
+      <p>Set the display text for the parameter.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        isLocale
-      </p>
+      <p>isLocale</p>
     </td>
     <td>
-      <p>Specifies
-        whether the report parameter value is a locale/format related string.
-        Valid values are true or false.</p>
+      <p>Specifies whether the report parameter value is a locale/format related string. Valid values are true or false.</p>
     </td>
   </tr>
   <tr>
@@ -1453,19 +1226,15 @@ Example JSP
       <p>title</p>
     </td>
     <td>
-      <p>Specifies
-        the title attribute of the parameter control.</p>
+      <p>Specifies the title attribute of the parameter control.</p>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        cssClass
-      </p>
+      <p>cssClass</p>
     </td>
     <td>
-      <p>Sets
-        the CSS class attribute of the parameter control.</p>
+      <p>Sets the CSS class attribute of the parameter control.</p>
     </td>
   </tr>
   <tr>
@@ -1473,8 +1242,7 @@ Example JSP
       <p>style</p>
     </td>
     <td>
-      <p>Specifies
-        the style for the parameter control.</p>
+      <p>Specifies the style for the parameter control.</p>
     </td>
   </tr>
 </table>

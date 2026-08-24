@@ -105,35 +105,39 @@ The reportContext can also be used to retrieve the current locale and messages s
 
 Within the initialize event you can define global functions, variables and objects. For example to create a global JavaScript function:
 
-					function gTest(v){
-					      return "Global Function:" + v;
-					}
-					//this line is only required if using the function within Chart Scripts
-					reportContext.setPersistentGlobalVariable("gTest", gTest);
-					
+```javascript
+function gTest(v){
+  return "Global Function:" + v;
+}
+//this line is only required if using the function within Chart Scripts
+reportContext.setPersistentGlobalVariable("gTest", gTest);
+```
 
 To use this function just call
 
-					gTest("MyTest");
-					or
-					gTest = reportContext.getPersistentGlobalVariable("gTest");
-					val = gTest("Use Persistent");
-					
+```javascript
+gTest("MyTest");
+// or
+gTest = reportContext.getPersistentGlobalVariable("gTest");
+val = gTest("Use Persistent");
+```
 
 To access the reportContext object within a chart script use the following:
 
-					context.getExternalContext().getScriptable()
-					
+```javascript
+context.getExternalContext().getScriptable()
+```
 
 To illustrate, the chart title could be altered with the following chart script:
 
-					function beforeGeneration( chart, context ){
-						importPackage(Packages.org.eclipse.birt.chart.model.type.impl);
-						newChartTitle = context.getExternalContext().getScriptable()
-						    .getPersistentGlobalVariable("testglobal");
-						chart.getTitle().getLabel().getCaption().setValue(newChartTitle);
-					}
-					
+```javascript
+function beforeGeneration( chart, context ){
+  importPackage(Packages.org.eclipse.birt.chart.model.type.impl);
+  newChartTitle = context.getExternalContext().getScriptable()
+      .getPersistentGlobalVariable("testglobal");
+  chart.getTitle().getLabel().getCaption().setValue(newChartTitle);
+}
+```
 
 In the beforeFactory event there are several methods that allow accessing elements within the report. The elements usually require a name. For example, using a Data Set named "orders", I want to display the query that was executed in a dynamic text element named "TestHeader". This can be achieved by entering the following script in beforeFactory
 
@@ -273,16 +277,21 @@ Often it is required to alter the visual appearance of an element based on its v
 
 On the data element
 
-					if( this.getValue() > 30 ){
-						this.getStyle().fontFamily = "Arial"
-						this.getStyle().backgroundColor = "Yellow"
-					}
-					
-					on the row
-					if (this.getRowData().getExpressionValue("row[QtyOrdered]") > 30){
-						this.getStyle().fontFamily = "Arial"
-						this.getStyle().backgroundColor = "Yellow"
-					}
+```javascript
+if( this.getValue() > 30 ){
+  this.getStyle().fontFamily = "Arial"
+  this.getStyle().backgroundColor = "Yellow"
+}
+```
+
+On the row
+
+```javascript
+if (this.getRowData().getExpressionValue("row[QtyOrdered]") > 30){
+  this.getStyle().fontFamily = "Arial"
+  this.getStyle().backgroundColor = "Yellow"
+}
+```
 					
 
 #### Using Named Expressions
@@ -347,29 +356,30 @@ If you are building a Scripted Data Source, four additional events are available
 With the property binding editor now available, setting Data Set properties can usually be done in the properites editor.
 An example of changing the query with JavaScript is presented below.
 
-					beforeOpen of the Data Set
-					this.queryText = "SELECT * FROM Customers where CustomerID 
-					     IN (" + params["customersInClause"] +")";
-					
+```javascript
+// beforeOpen of the Data Set
+this.queryText = "SELECT * FROM Customers where CustomerID IN (" + params["customersInClause"] +")";
+```
 
 When implementing a Scripted Data Set, use the open event to initialize variables, classes etc. Use the Fetch event to load your row data. Remember to return false when your data set is finished. Use close to close any external objects.
 
 To illustrate a Scripted Data Set, assume that you have an external Java Object that returns an ArrayList. To use this with the scripted data set do the following.
 
-					open event of the Data Set
-					importPackage(Packages.test.my.ds)
-					myDataSet = new DS();
-					myArrayList = myDataSet.getList();
-					myIter = myArrayList.iterator();
-					
-					fetch event of the Data Set
-					if( !myIter.hasNext() ){
-						return false;
-					}
-					//myOnlyColumn must be manually defined or defined in the describe event
-					row["myOnlyColumn"] = iter.next();
-					return true;
-					
+```javascript
+// open event of the Data Set
+importPackage(Packages.test.my.ds)
+myDataSet = new DS();
+myArrayList = myDataSet.getList();
+myIter = myArrayList.iterator();
+
+// fetch event of the Data Set
+if( !myIter.hasNext() ){
+  return false;
+}
+//myOnlyColumn must be manually defined or defined in the describe event
+row["myOnlyColumn"] = iter.next();
+return true;
+```
 
 ### Writting Events in Java
 
