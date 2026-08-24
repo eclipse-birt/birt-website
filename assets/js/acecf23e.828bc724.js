@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkbirt_website||=[]).push([[1903],{1912(t){t.exports=JSON.parse('{"blogBasePath":"/birt-website/blog","blogTitle":"Blog","authorsListPath":"/birt-website/blog/authors"}')}}]);
